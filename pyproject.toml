@@ -1,0 +1,35 @@
+[project]
+name = "deutsche-bahn-statistics"
+version = "0.1.0"
+description = "Statistics about the german train company Deutsche Bahn"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "jupyterlab==4.3.1",
+    "matplotlib==3.9.2",
+    "pandas==2.2.3",
+    "pyarrow==18.0.0",
+    "ruff",
+    "tqdm",
+]
+
+license = { file = "LICENSE.md" }
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = [
+    "F",        # Pyflakes
+    "UP",       # pyupgrade
+    "B018",     # Found useless expression.
+    "I",        # isort
+    "RUF",      # ruff
+]
+ignore = [
+  "E501", # line too long - will be fixed in format
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

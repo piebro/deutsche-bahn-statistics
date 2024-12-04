@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=800">
+    <meta name="description" content="Deutsche Bahn Statistiken">
+    <title>Deutsche Bahn Statistiken</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../index.js"></script>
+    <script defer data-domain="piebro.github.io/deutsche-bahn-statistics" src="https://plausible.io/js/script.js"></script>
+</head>
+
+<body>
+    <!-- header generated with scripts/generate_html_links.py -->
+    <header class="header">
+        <div class="left-nav">
+            <a href="../bahnhof">←</a>
+            <a href="..">alle Fragen</a>
+        </div>
+        <nav>
+            <a href="../about.html">About</a>
+            <a href="https://github.com/piebro/deutsche-bahn-statistics">Code</a>
+            <a href="https://github.com/piebro/deutsche-bahn-data">Daten</a>
+            <a href="https://piebro.github.io/">andere Projekte</a>
+        </nav>
+    </header>
+    <!-- end of generated header-->
+
+    <h1 id="Verspätung pro Zuggattung">Wie verteilen sich Verspätungen auf verschiedene Zuggattungen?</h1>
+    <div id="content">
+        <p>
+            Hier kann man die verschiedenen Zuggattungen über alle Bahnhöfe hinweg miteinander vergleichen.
+        </p>
+        <p>
+            In den Daten der Deutschen Bahn hat jeder Zughalt das Attribut "train_type", welche sich mit Zuggattung übersetzen lässt.
+            Dies gibt an um welche Art von Zug es sich handelt (ICE, Re oder S-Bahn), aber sie beschreibt auch manchmal welches Bahnunternehmen den Zug betreibt (SWB, NWB usw.).
+        </p>
+        <p>
+            Soweit ich das verstehe, ist der Betreiber aber nicht immer in der Zuggattung, da z.B. der Betreiber "RRX" als Zuggattungen nie auftaucht.
+            Wenn jemand weiß was es mit "train_type" genau auf sich hat und wie man es gut interpretieren kann, kann mir gerne eine Email schreiben oder ein issue bei GitHub erstellen.
+        </p>
+        <h2>Durchschnittliche Verspätung und Ausfallquote der 15 häufigsten Zuggattungen</h2>
+        <div id="chart-container">
+            <img src="data/top_15_verspaetung_und_ausfallquote.png">
+        </div>
+        <h2>Allen Zuggattungen</h2>
+        <div id="table-container"></div>
+    </div>
+    <script>
+        const files = [{ key: 'bahnunternehmen', label: "Bahnunternehmen Statistik", file: 'data/alle_zuggattungen_statistik.json' }];
+        const columns = [
+            { key: 'train_type_name', label: 'Zuggattung Name' },
+            { key: 'train_type', label: 'Zuggattung Abkürzung' },
+            { key: 'delay_in_min', label: 'Durchschnittliche Verspätung [min]', format: value => value.toFixed(2)},
+            { key: 'cancellation_rate', label: 'Ausfallquote', format: value => value.toFixed(2)},
+            { key: 'sample_size', label: 'Anzahl Zughalte' },
+        ];
+
+        setupTable('table-container', files, columns, defaultSort = { column: 'sample_size', direction: 'desc' });
+    </script>
+    
+    <!-- footer generated with scripts/generate_html_links.py -->
+    <p>
+        Quelle: <a href="https://github.com/piebro/deutsche-bahn-statistics/blob/main/questions/zuggattung/calculations.py">Berechnet</a>
+        auf Basis von
+        <a href="https://github.com/piebro/deutsche-bahn-data">gesammelten Daten</a>
+        von der Deutschen Bahn vom 2024.09.01 bis 2024.12.01.
+
+        <nav class="question-nav">
+            <a href="../bahnhof" class="prev-question">Vorherige Frage</a>
+        </nav>
+    </p>
+    <!-- end of generated footer -->
+</body>
+</html>

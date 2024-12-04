@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=800">
+    <meta name="description" content="Deutsche Bahn Statistiken">
+    <title>Deutsche Bahn Statistiken</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../index.js"></script>
+    <script defer data-domain="piebro.github.io/deutsche-bahn-statistics" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+    <!-- header generated with scripts/generate_html_links.py -->
+    <header class="header">
+        <div class="left-nav">
+            <a href="../zeitraum">←</a>
+            <a href="..">alle Fragen</a>
+            <a href="../zugverbindung">→</a>
+        </div>
+        <nav>
+            <a href="../about.html">About</a>
+            <a href="https://github.com/piebro/deutsche-bahn-statistics">Code</a>
+            <a href="https://github.com/piebro/deutsche-bahn-data">Daten</a>
+            <a href="https://piebro.github.io/">andere Projekte</a>
+        </nav>
+    </header>
+    <!-- end of generated header-->
+
+    
+    <h1 id="Schnellste Direktverbindungen">Was sind die schnellsten Direktverbindungen zwischen zwei Bahnhöfen?</h1>
+    <div id="content">
+        <p>
+            Diese Seite war meine Motivation um das Projekt zu starten.
+            Ich bin für ein paar Monate viel gependelt und habe mich gefragt welche Zuglinie ich am besten nehmen kann.
+        </p>
+        <p>
+            Wähle einen Start- und Zielbahnhof aus und erhalte eine Übersicht von allen Direktverbindungen zwischen den Bahnhöfen in den letzten drei Monaten
+            mit der durchschnittlichen Fahrzeit inklusive der Verspätung und weiteren Informationen.
+        </p>
+        <div class="station-selector">
+            <select id="start-station">
+            </select>
+            <select id="end-station">
+            </select>
+        </div>
+        <div class="filter-options">
+            <label><input type="checkbox" id="nahverkehr" checked> Nahverkehr</label>
+            <label><input type="checkbox" id="fernverkehr" checked> Fernverkehr</label>
+            <label><input type="checkbox" id="min-samples" checked> Mindestens 60 geplante Fahrten</label>
+        </div>
+        <br>
+        <div id="table-container"></div>
+    </div>
+    
+    <script>
+        let routeData = {};
+        let columns = [
+            { key: 'Zug'},
+            { key: 'Fahrzeit inkl. Verspätungen [min]', format: value => value === null ? '-' : value.toFixed(2)},
+            { key: 'Verspätung Abfahrt [min]', format: value => value === null ? '-' : value.toFixed(2)},
+            { key: 'Verspätung Ankunft [min]', format: value => value === null ? '-' : value.toFixed(2)},
+            { key: 'Ausfallquote', format: value => value === null ? '-' : value.toFixed(2) },
+            { key: 'Stichprobengröße', label: "Anzahl geplanter Fahrten"},
+        ];
+
+        async function loadRouteData() {
+            const response = await fetch('data/direkte_zuege_uebersicht.json');
+            routeData = await response.json();
+            populateStartStations();
+            
+            // Set default values after populating stations
+            const startSelect = document.getElementById('start-station');
+            startSelect.value = 'Dortmund Hbf';
+            populateEndStations('Dortmund Hbf');
+            
+            const endSelect = document.getElementById('end-station');
+            endSelect.value = 'Düsseldorf Hbf';
+            updateTable('Dortmund Hbf', 'Düsseldorf Hbf');
+        }
+
+        function populateStartStations() {
+            const startSelect = document.getElementById('start-station');
+            startSelect.innerHTML = '<option value="">Startbahnhof wählen</option>';
+            Object.keys(routeData).sort().forEach(station => {
+                startSelect.innerHTML += `<option value="${station}">${station}</option>`;
+            });
+        }
+
+        function populateEndStations(startStation) {
+            const endSelect = document.getElementById('end-station');
+            const currentEndStation = endSelect.value;
+            endSelect.innerHTML = '<option value="">Zielbahnhof wählen</option>';
+            endSelect.disabled = !startStation;
+            
+            if (startStation) {
+                const validEndStations = Object.keys(routeData[startStation]).sort();
+                validEndStations.forEach(station => {
+                    endSelect.innerHTML += `<option value="${station}">${station}</option>`;
+                });
+                
+                if (currentEndStation && validEndStations.includes(currentEndStation)) {
+                    endSelect.value = currentEndStation;
+                    updateTable(startStation, currentEndStation);
+                } else {
+                    updateTable('', '');
+                }
+            }
+        }
+
+        function updateTable(startStation, endStation) {
+            if (startStation && endStation) {
+                const files = [{
+                    label: `${startStation} => ${endStation}`,
+                    file: "data/alle_direkten_zuege/" + routeData[startStation][endStation],
+                    filter: (data) => {
+                        const fernverkehr = document.getElementById('fernverkehr').checked;
+                        const nahverkehr = document.getElementById('nahverkehr').checked;
+                        const minSamples = document.getElementById('min-samples').checked;
+                        
+                        return data.filter(row => {
+                            // Check here: https://de.wikipedia.org/wiki/Liste_von_Zuggattungen
+                            const isFernverkehr = ['ICE', 'IC', 'FLX', 'EST', 'NJ', 'EC', 'HEX', 'ES'].some(prefix => row.Zug.startsWith(prefix));
+                            const isNahverkehr = ['S', 'RE', 'RB'].some(prefix => row.Zug.startsWith(prefix));
+                            
+                            if (!fernverkehr && isFernverkehr) return false;
+                            if (!nahverkehr && isNahverkehr) return false;
+                            if (minSamples && row['Stichprobengröße'] < 60) return false;
+                            return true;
+                        });
+                    },
+                    filterTriggerElementList: ['#nahverkehr', '#fernverkehr', '#min-samples']
+                }];
+                setupTable('table-container', files, columns, defaultSort = { column: 'Stichprobengröße', direction: 'desc' });
+            } else {
+                document.getElementById('table-container').innerHTML = '';
+            }
+        }
+
+        document.getElementById('start-station').addEventListener('change', (e) => {
+            const startStation = e.target.value;
+            populateEndStations(startStation);
+        });
+
+        document.getElementById('end-station').addEventListener('change', (e) => {
+            const startStation = document.getElementById('start-station').value;
+            const endStation = e.target.value;
+            updateTable(startStation, endStation);
+        });
+
+        // Load data when page loads
+        loadRouteData();
+    </script>
+    
+    <!-- footer generated with scripts/generate_html_links.py -->
+    <p>
+        Quelle: <a href="https://github.com/piebro/deutsche-bahn-statistics/blob/main/questions/direkter_zug/calculations.py">Berechnet</a>
+        auf Basis von
+        <a href="https://github.com/piebro/deutsche-bahn-data">gesammelten Daten</a>
+        von der Deutschen Bahn vom 2024.09.01 bis 2024.12.01.
+
+        <nav class="question-nav">
+            <a href="../zeitraum" class="prev-question">Vorherige Frage</a>
+            <a href="../zugverbindung" class="next-question">Welche Fernverkehrszüge haben am meisten Verspätungen?</a>
+        </nav>
+    </p>
+    <!-- end of generated footer -->
+</body>
+</html>

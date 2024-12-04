@@ -1,0 +1,6714 @@
+{
+  "Aachen Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.66,
+      "cancellation_rate": 0.09,
+      "sample_size": 36118
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.52,
+      "cancellation_rate": 0.11,
+      "sample_size": 18065
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.8,
+      "cancellation_rate": 0.07,
+      "sample_size": 13504
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.65,
+      "cancellation_rate": 0.0,
+      "sample_size": 1785
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 12.5,
+      "cancellation_rate": 0.11,
+      "sample_size": 1529
+    },
+    {
+      "train_type": "EST",
+      "average_delay": 8.96,
+      "cancellation_rate": 0.07,
+      "sample_size": 758
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.96,
+      "cancellation_rate": 0.1,
+      "sample_size": 303
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 34.06,
+      "cancellation_rate": 0.27,
+      "sample_size": 136
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 18.58,
+      "cancellation_rate": 0.13,
+      "sample_size": 38
+    }
+  ],
+  "Aschaffenburg Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.83,
+      "cancellation_rate": 0.02,
+      "sample_size": 21791
+    },
+    {
+      "train_type": "HLB",
+      "average_delay": 3.4,
+      "cancellation_rate": 0.03,
+      "sample_size": 6258
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.77,
+      "cancellation_rate": 0.01,
+      "sample_size": 4517
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.06,
+      "cancellation_rate": 0.01,
+      "sample_size": 3799
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 14.72,
+      "cancellation_rate": 0.03,
+      "sample_size": 3763
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 3447
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 6.0,
+      "cancellation_rate": 0.17,
+      "sample_size": 6
+    },
+    {
+      "train_type": "MSM",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Augsburg Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.88,
+      "cancellation_rate": 0.03,
+      "sample_size": 55667
+    },
+    {
+      "train_type": "BRB",
+      "average_delay": 2.07,
+      "cancellation_rate": 0.01,
+      "sample_size": 22781
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.37,
+      "cancellation_rate": 0.02,
+      "sample_size": 15142
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 8.27,
+      "cancellation_rate": 0.07,
+      "sample_size": 8136
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 4.7,
+      "cancellation_rate": 0.04,
+      "sample_size": 7940
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 18.46,
+      "cancellation_rate": 0.08,
+      "sample_size": 465
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 9.61,
+      "cancellation_rate": 0.09,
+      "sample_size": 353
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 352
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 8.12,
+      "cancellation_rate": 0.12,
+      "sample_size": 326
+    },
+    {
+      "train_type": "TGV",
+      "average_delay": 9.62,
+      "cancellation_rate": 0.01,
+      "sample_size": 141
+    },
+    {
+      "train_type": "D",
+      "average_delay": 11.28,
+      "cancellation_rate": 0.25,
+      "sample_size": 24
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 29.43,
+      "cancellation_rate": 0.0,
+      "sample_size": 7
+    }
+  ],
+  "Bad Oldesloe": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.08,
+      "cancellation_rate": 0.02,
+      "sample_size": 11558
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 1.88,
+      "cancellation_rate": 0.01,
+      "sample_size": 7216
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.52,
+      "cancellation_rate": 0.03,
+      "sample_size": 3802
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 1.62,
+      "cancellation_rate": 0.0,
+      "sample_size": 540
+    }
+  ],
+  "Bamberg": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.75,
+      "cancellation_rate": 0.02,
+      "sample_size": 32099
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.74,
+      "cancellation_rate": 0.02,
+      "sample_size": 12920
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.36,
+      "cancellation_rate": 0.02,
+      "sample_size": 5799
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.05,
+      "cancellation_rate": 0.0,
+      "sample_size": 4017
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.78,
+      "cancellation_rate": 0.01,
+      "sample_size": 3557
+    },
+    {
+      "train_type": "ag",
+      "average_delay": 2.55,
+      "cancellation_rate": 0.02,
+      "sample_size": 2784
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 7.64,
+      "cancellation_rate": 0.1,
+      "sample_size": 2161
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 7.87,
+      "cancellation_rate": 0.08,
+      "sample_size": 861
+    }
+  ],
+  "Berlin Friedrichstraße": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 1.94,
+      "cancellation_rate": 0.07,
+      "sample_size": 148046
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.51,
+      "cancellation_rate": 0.07,
+      "sample_size": 121371
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.48,
+      "cancellation_rate": 0.05,
+      "sample_size": 20516
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.18,
+      "cancellation_rate": 0.04,
+      "sample_size": 3142
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2579
+    },
+    {
+      "train_type": "FEX",
+      "average_delay": 3.85,
+      "cancellation_rate": 0.07,
+      "sample_size": 269
+    },
+    {
+      "train_type": "HBX",
+      "average_delay": -0.64,
+      "cancellation_rate": 0.01,
+      "sample_size": 151
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 1.0,
+      "cancellation_rate": 0.83,
+      "sample_size": 12
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 0.0,
+      "cancellation_rate": 1.0,
+      "sample_size": 6
+    }
+  ],
+  "Berlin Gesundbrunnen": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 1.86,
+      "cancellation_rate": 0.09,
+      "sample_size": 111789
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.72,
+      "cancellation_rate": 0.1,
+      "sample_size": 80897
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.85,
+      "cancellation_rate": 0.02,
+      "sample_size": 8300
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 8026
+    },
+    {
+      "train_type": "FEX",
+      "average_delay": 2.1,
+      "cancellation_rate": 0.04,
+      "sample_size": 6283
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.87,
+      "cancellation_rate": 0.08,
+      "sample_size": 3603
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 5.74,
+      "cancellation_rate": 0.07,
+      "sample_size": 3148
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 3.61,
+      "cancellation_rate": 0.18,
+      "sample_size": 1188
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 9.57,
+      "cancellation_rate": 0.02,
+      "sample_size": 163
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 12.84,
+      "cancellation_rate": 0.05,
+      "sample_size": 113
+    },
+    {
+      "train_type": "EN",
+      "average_delay": -0.77,
+      "cancellation_rate": 0.04,
+      "sample_size": 27
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 1.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 23
+    },
+    {
+      "train_type": "HBX",
+      "average_delay": -3.08,
+      "cancellation_rate": 0.0,
+      "sample_size": 12
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": 16.75,
+      "cancellation_rate": 0.0,
+      "sample_size": 4
+    },
+    {
+      "train_type": "D",
+      "average_delay": 22.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    },
+    {
+      "train_type": "ES",
+      "average_delay": 142.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Berlin Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.61,
+      "cancellation_rate": 0.06,
+      "sample_size": 137008
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.22,
+      "cancellation_rate": 0.07,
+      "sample_size": 60704
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.06,
+      "cancellation_rate": 0.04,
+      "sample_size": 35379
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 8.29,
+      "cancellation_rate": 0.08,
+      "sample_size": 18694
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.14,
+      "cancellation_rate": 0.06,
+      "sample_size": 8155
+    },
+    {
+      "train_type": "FEX",
+      "average_delay": 2.46,
+      "cancellation_rate": 0.04,
+      "sample_size": 6534
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 7.38,
+      "cancellation_rate": 0.15,
+      "sample_size": 3061
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 12.76,
+      "cancellation_rate": 0.08,
+      "sample_size": 2031
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 18.91,
+      "cancellation_rate": 0.03,
+      "sample_size": 1256
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 10.48,
+      "cancellation_rate": 0.06,
+      "sample_size": 361
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 33.07,
+      "cancellation_rate": 0.06,
+      "sample_size": 292
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": 6.22,
+      "cancellation_rate": 0.16,
+      "sample_size": 164
+    },
+    {
+      "train_type": "HBX",
+      "average_delay": -0.2,
+      "cancellation_rate": 0.01,
+      "sample_size": 151
+    },
+    {
+      "train_type": "D",
+      "average_delay": 11.65,
+      "cancellation_rate": 0.05,
+      "sample_size": 148
+    },
+    {
+      "train_type": "ES",
+      "average_delay": 23.83,
+      "cancellation_rate": 0.06,
+      "sample_size": 77
+    },
+    {
+      "train_type": "R",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Berlin Ostbahnhof": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.85,
+      "cancellation_rate": 0.08,
+      "sample_size": 118432
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.22,
+      "cancellation_rate": 0.09,
+      "sample_size": 81660
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.56,
+      "cancellation_rate": 0.07,
+      "sample_size": 20723
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 10.68,
+      "cancellation_rate": 0.07,
+      "sample_size": 9108
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.4,
+      "cancellation_rate": 0.06,
+      "sample_size": 3146
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 11.15,
+      "cancellation_rate": 0.15,
+      "sample_size": 1395
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 12.9,
+      "cancellation_rate": 0.14,
+      "sample_size": 1074
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 686
+    },
+    {
+      "train_type": "FEX",
+      "average_delay": 4.23,
+      "cancellation_rate": 0.06,
+      "sample_size": 272
+    },
+    {
+      "train_type": "HBX",
+      "average_delay": -0.65,
+      "cancellation_rate": 0.01,
+      "sample_size": 151
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 15.34,
+      "cancellation_rate": 0.05,
+      "sample_size": 135
+    },
+    {
+      "train_type": "ES",
+      "average_delay": 28.6,
+      "cancellation_rate": 0.05,
+      "sample_size": 77
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": 17.4,
+      "cancellation_rate": 0.0,
+      "sample_size": 5
+    }
+  ],
+  "Berlin Ostkreuz": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 1.76,
+      "cancellation_rate": 0.07,
+      "sample_size": 40397
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.22,
+      "cancellation_rate": 0.08,
+      "sample_size": 30324
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.07,
+      "cancellation_rate": 0.02,
+      "sample_size": 4062
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.87,
+      "cancellation_rate": 0.04,
+      "sample_size": 3639
+    },
+    {
+      "train_type": "FEX",
+      "average_delay": 2.23,
+      "cancellation_rate": 0.03,
+      "sample_size": 2096
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 144
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 6.55,
+      "cancellation_rate": 0.09,
+      "sample_size": 82
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 14.25,
+      "cancellation_rate": 0.03,
+      "sample_size": 29
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": 12.0,
+      "cancellation_rate": 0.42,
+      "sample_size": 12
+    },
+    {
+      "train_type": "IRE",
+      "average_delay": 5.11,
+      "cancellation_rate": 0.0,
+      "sample_size": 9
+    }
+  ],
+  "Berlin Potsdamer Platz": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.14,
+      "cancellation_rate": 0.09,
+      "sample_size": 83454
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.05,
+      "cancellation_rate": 0.1,
+      "sample_size": 67480
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.8,
+      "cancellation_rate": 0.02,
+      "sample_size": 11382
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.6,
+      "cancellation_rate": 0.07,
+      "sample_size": 4584
+    },
+    {
+      "train_type": "FEX",
+      "average_delay": 9.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 8
+    }
+  ],
+  "Berlin Südkreuz": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.41,
+      "cancellation_rate": 0.09,
+      "sample_size": 127222
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.68,
+      "cancellation_rate": 0.1,
+      "sample_size": 97917
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.91,
+      "cancellation_rate": 0.03,
+      "sample_size": 13231
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 7.42,
+      "cancellation_rate": 0.08,
+      "sample_size": 7987
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.46,
+      "cancellation_rate": 0.07,
+      "sample_size": 4584
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 5.59,
+      "cancellation_rate": 0.16,
+      "sample_size": 1405
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 11.39,
+      "cancellation_rate": 0.02,
+      "sample_size": 957
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 20.02,
+      "cancellation_rate": 0.03,
+      "sample_size": 545
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 10.87,
+      "cancellation_rate": 0.06,
+      "sample_size": 339
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 10.78,
+      "cancellation_rate": 0.05,
+      "sample_size": 155
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": 4.21,
+      "cancellation_rate": 0.03,
+      "sample_size": 88
+    },
+    {
+      "train_type": "FEX",
+      "average_delay": 8.14,
+      "cancellation_rate": 0.0,
+      "sample_size": 14
+    }
+  ],
+  "Berlin Zoologischer Garten": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.17,
+      "cancellation_rate": 0.06,
+      "sample_size": 88759
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.31,
+      "cancellation_rate": 0.07,
+      "sample_size": 64183
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.41,
+      "cancellation_rate": 0.05,
+      "sample_size": 20442
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.33,
+      "cancellation_rate": 0.04,
+      "sample_size": 3151
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 15.52,
+      "cancellation_rate": 0.39,
+      "sample_size": 561
+    },
+    {
+      "train_type": "FEX",
+      "average_delay": 3.9,
+      "cancellation_rate": 0.07,
+      "sample_size": 269
+    },
+    {
+      "train_type": "HBX",
+      "average_delay": -0.55,
+      "cancellation_rate": 0.01,
+      "sample_size": 151
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": -4.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Berlin-Lichtenberg": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 1.67,
+      "cancellation_rate": 0.08,
+      "sample_size": 85846
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.43,
+      "cancellation_rate": 0.09,
+      "sample_size": 65643
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.45,
+      "cancellation_rate": 0.06,
+      "sample_size": 16357
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1601
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.1,
+      "cancellation_rate": 0.03,
+      "sample_size": 968
+    },
+    {
+      "train_type": "FEX",
+      "average_delay": 2.98,
+      "cancellation_rate": 0.02,
+      "sample_size": 798
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 2.55,
+      "cancellation_rate": 0.02,
+      "sample_size": 176
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 8.52,
+      "cancellation_rate": 0.03,
+      "sample_size": 172
+    },
+    {
+      "train_type": "IRE",
+      "average_delay": 5.6,
+      "cancellation_rate": 0.08,
+      "sample_size": 52
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 1.17,
+      "cancellation_rate": 0.0,
+      "sample_size": 23
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 1.3,
+      "cancellation_rate": 0.0,
+      "sample_size": 23
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": 7.71,
+      "cancellation_rate": 0.0,
+      "sample_size": 14
+    },
+    {
+      "train_type": "HBX",
+      "average_delay": -2.42,
+      "cancellation_rate": 0.0,
+      "sample_size": 12
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 6.0,
+      "cancellation_rate": 0.67,
+      "sample_size": 6
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Berlin-Spandau": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.38,
+      "cancellation_rate": 0.05,
+      "sample_size": 59087
+    },
+    {
+      "train_type": "S",
+      "average_delay": 0.48,
+      "cancellation_rate": 0.05,
+      "sample_size": 21495
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.88,
+      "cancellation_rate": 0.03,
+      "sample_size": 14361
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 9.24,
+      "cancellation_rate": 0.09,
+      "sample_size": 13249
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.36,
+      "cancellation_rate": 0.04,
+      "sample_size": 8231
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 12.25,
+      "cancellation_rate": 0.19,
+      "sample_size": 1047
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 14.94,
+      "cancellation_rate": 0.02,
+      "sample_size": 377
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 1.13,
+      "cancellation_rate": 0.0,
+      "sample_size": 323
+    },
+    {
+      "train_type": "FEX",
+      "average_delay": 5.33,
+      "cancellation_rate": 0.0,
+      "sample_size": 3
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": 0.0,
+      "cancellation_rate": 1.0,
+      "sample_size": 1
+    }
+  ],
+  "Berlin-Wannsee": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.42,
+      "cancellation_rate": 0.07,
+      "sample_size": 59874
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.6,
+      "cancellation_rate": 0.08,
+      "sample_size": 41486
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.32,
+      "cancellation_rate": 0.03,
+      "sample_size": 13376
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.23,
+      "cancellation_rate": 0.15,
+      "sample_size": 4203
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 5.61,
+      "cancellation_rate": 0.07,
+      "sample_size": 455
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 19.05,
+      "cancellation_rate": 0.06,
+      "sample_size": 187
+    },
+    {
+      "train_type": "HBX",
+      "average_delay": -1.9,
+      "cancellation_rate": 0.0,
+      "sample_size": 163
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 4
+    }
+  ],
+  "Bielefeld Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.9,
+      "cancellation_rate": 0.05,
+      "sample_size": 38900
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.96,
+      "cancellation_rate": 0.06,
+      "sample_size": 11825
+    },
+    {
+      "train_type": "NWB",
+      "average_delay": 3.74,
+      "cancellation_rate": 0.07,
+      "sample_size": 8162
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.42,
+      "cancellation_rate": 0.05,
+      "sample_size": 6715
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.91,
+      "cancellation_rate": 0.0,
+      "sample_size": 6056
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 15.34,
+      "cancellation_rate": 0.08,
+      "sample_size": 4043
+    },
+    {
+      "train_type": "WFB",
+      "average_delay": 3.92,
+      "cancellation_rate": 0.03,
+      "sample_size": 1676
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 12.21,
+      "cancellation_rate": 0.07,
+      "sample_size": 253
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 13.58,
+      "cancellation_rate": 0.02,
+      "sample_size": 170
+    }
+  ],
+  "Bietigheim-Bissingen": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.14,
+      "cancellation_rate": 0.02,
+      "sample_size": 31085
+    },
+    {
+      "train_type": "MEX",
+      "average_delay": 3.6,
+      "cancellation_rate": 0.01,
+      "sample_size": 16663
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.93,
+      "cancellation_rate": 0.03,
+      "sample_size": 10738
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.64,
+      "cancellation_rate": 0.04,
+      "sample_size": 3387
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 4.21,
+      "cancellation_rate": 0.05,
+      "sample_size": 281
+    },
+    {
+      "train_type": "IRE",
+      "average_delay": 4.44,
+      "cancellation_rate": 0.0,
+      "sample_size": 9
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 4
+    },
+    {
+      "train_type": "DBK",
+      "average_delay": 26.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 1.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Bochum Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.92,
+      "cancellation_rate": 0.05,
+      "sample_size": 39350
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.03,
+      "cancellation_rate": 0.06,
+      "sample_size": 10924
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 8.12,
+      "cancellation_rate": 0.05,
+      "sample_size": 9372
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 14.72,
+      "cancellation_rate": 0.07,
+      "sample_size": 6799
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 2.53,
+      "cancellation_rate": 0.02,
+      "sample_size": 5740
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.95,
+      "cancellation_rate": 0.03,
+      "sample_size": 3719
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.15,
+      "cancellation_rate": 0.0,
+      "sample_size": 1925
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 18.2,
+      "cancellation_rate": 0.02,
+      "sample_size": 487
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 16.54,
+      "cancellation_rate": 0.2,
+      "sample_size": 374
+    },
+    {
+      "train_type": "TRI",
+      "average_delay": 10.62,
+      "cancellation_rate": 0.2,
+      "sample_size": 10
+    }
+  ],
+  "Bonn Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.95,
+      "cancellation_rate": 0.06,
+      "sample_size": 23106
+    },
+    {
+      "train_type": "S",
+      "average_delay": 0.83,
+      "cancellation_rate": 0.02,
+      "sample_size": 9088
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 6.26,
+      "cancellation_rate": 0.11,
+      "sample_size": 7972
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 11.18,
+      "cancellation_rate": 0.06,
+      "sample_size": 2920
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.21,
+      "cancellation_rate": 0.0,
+      "sample_size": 1632
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 18.55,
+      "cancellation_rate": 0.1,
+      "sample_size": 1024
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 12.12,
+      "cancellation_rate": 0.06,
+      "sample_size": 398
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 46.7,
+      "cancellation_rate": 0.04,
+      "sample_size": 72
+    }
+  ],
+  "Braunschweig Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.14,
+      "cancellation_rate": 0.03,
+      "sample_size": 44507
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.91,
+      "cancellation_rate": 0.02,
+      "sample_size": 16150
+    },
+    {
+      "train_type": "erx",
+      "average_delay": 1.87,
+      "cancellation_rate": 0.02,
+      "sample_size": 8046
+    },
+    {
+      "train_type": "WFB",
+      "average_delay": 4.68,
+      "cancellation_rate": 0.03,
+      "sample_size": 6333
+    },
+    {
+      "train_type": "ENO",
+      "average_delay": 2.73,
+      "cancellation_rate": 0.02,
+      "sample_size": 5745
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 9.26,
+      "cancellation_rate": 0.06,
+      "sample_size": 3035
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 7.2,
+      "cancellation_rate": 0.04,
+      "sample_size": 3002
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.03,
+      "cancellation_rate": 0.0,
+      "sample_size": 2196
+    }
+  ],
+  "Bremen Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.43,
+      "cancellation_rate": 0.05,
+      "sample_size": 53739
+    },
+    {
+      "train_type": "NWB",
+      "average_delay": 2.77,
+      "cancellation_rate": 0.03,
+      "sample_size": 27531
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.51,
+      "cancellation_rate": 0.03,
+      "sample_size": 9292
+    },
+    {
+      "train_type": "ME",
+      "average_delay": 4.35,
+      "cancellation_rate": 0.03,
+      "sample_size": 6092
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 12.46,
+      "cancellation_rate": 0.07,
+      "sample_size": 4691
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 9.38,
+      "cancellation_rate": 0.05,
+      "sample_size": 2450
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.02,
+      "cancellation_rate": 0.46,
+      "sample_size": 1769
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.05,
+      "cancellation_rate": 0.0,
+      "sample_size": 1461
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 21.48,
+      "cancellation_rate": 0.04,
+      "sample_size": 236
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 14.61,
+      "cancellation_rate": 0.08,
+      "sample_size": 175
+    },
+    {
+      "train_type": "EVB",
+      "average_delay": 1.78,
+      "cancellation_rate": 0.0,
+      "sample_size": 40
+    },
+    {
+      "train_type": "MSM",
+      "average_delay": 16.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Bruchsal": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 1.98,
+      "cancellation_rate": 0.02,
+      "sample_size": 41964
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.01,
+      "cancellation_rate": 0.02,
+      "sample_size": 29687
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 1.49,
+      "cancellation_rate": 0.03,
+      "sample_size": 4821
+    },
+    {
+      "train_type": "MEX",
+      "average_delay": 1.33,
+      "cancellation_rate": 0.03,
+      "sample_size": 2945
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.85,
+      "cancellation_rate": 0.02,
+      "sample_size": 2465
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 4.32,
+      "cancellation_rate": 0.12,
+      "sample_size": 1562
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.56,
+      "cancellation_rate": 0.0,
+      "sample_size": 226
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 4.38,
+      "cancellation_rate": 0.08,
+      "sample_size": 148
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 5.92,
+      "cancellation_rate": 0.08,
+      "sample_size": 84
+    },
+    {
+      "train_type": "IRE",
+      "average_delay": 4.7,
+      "cancellation_rate": 0.17,
+      "sample_size": 24
+    },
+    {
+      "train_type": "DBK",
+      "average_delay": 19.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Chemnitz Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 1.35,
+      "cancellation_rate": 0.01,
+      "sample_size": 45099
+    },
+    {
+      "train_type": "CB",
+      "average_delay": 0.83,
+      "cancellation_rate": 0.01,
+      "sample_size": 24317
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.54,
+      "cancellation_rate": 0.02,
+      "sample_size": 12764
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.32,
+      "cancellation_rate": 0.02,
+      "sample_size": 5900
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1753
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 5.88,
+      "cancellation_rate": 0.19,
+      "sample_size": 345
+    },
+    {
+      "train_type": "VSE",
+      "average_delay": 1.1,
+      "cancellation_rate": 0.0,
+      "sample_size": 20
+    }
+  ],
+  "Cottbus Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.86,
+      "cancellation_rate": 0.03,
+      "sample_size": 17442
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.35,
+      "cancellation_rate": 0.02,
+      "sample_size": 9590
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.37,
+      "cancellation_rate": 0.04,
+      "sample_size": 7634
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 8.86,
+      "cancellation_rate": 0.11,
+      "sample_size": 156
+    },
+    {
+      "train_type": "IRE",
+      "average_delay": 7.02,
+      "cancellation_rate": 0.08,
+      "sample_size": 53
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 9
+    }
+  ],
+  "Darmstadt Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.99,
+      "cancellation_rate": 0.05,
+      "sample_size": 30599
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.99,
+      "cancellation_rate": 0.02,
+      "sample_size": 7985
+    },
+    {
+      "train_type": "HLB",
+      "average_delay": 3.44,
+      "cancellation_rate": 0.03,
+      "sample_size": 6833
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.53,
+      "cancellation_rate": 0.03,
+      "sample_size": 6749
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 9.24,
+      "cancellation_rate": 0.11,
+      "sample_size": 5045
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 3.17,
+      "cancellation_rate": 0.08,
+      "sample_size": 1981
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.12,
+      "cancellation_rate": 0.0,
+      "sample_size": 450
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 15.93,
+      "cancellation_rate": 0.04,
+      "sample_size": 420
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 7.04,
+      "cancellation_rate": 0.07,
+      "sample_size": 334
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 8.11,
+      "cancellation_rate": 0.07,
+      "sample_size": 270
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 7.76,
+      "cancellation_rate": 0.07,
+      "sample_size": 256
+    },
+    {
+      "train_type": "ECE",
+      "average_delay": 4.02,
+      "cancellation_rate": 0.08,
+      "sample_size": 91
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 7.12,
+      "cancellation_rate": 0.06,
+      "sample_size": 90
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 6.64,
+      "cancellation_rate": 0.06,
+      "sample_size": 90
+    },
+    {
+      "train_type": "DBK",
+      "average_delay": 22.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 17.5,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    },
+    {
+      "train_type": "TGV",
+      "average_delay": -2.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Dortmund Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.82,
+      "cancellation_rate": 0.06,
+      "sample_size": 88968
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.94,
+      "cancellation_rate": 0.06,
+      "sample_size": 25066
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.83,
+      "cancellation_rate": 0.08,
+      "sample_size": 22418
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 6.93,
+      "cancellation_rate": 0.07,
+      "sample_size": 19698
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.06,
+      "cancellation_rate": 0.0,
+      "sample_size": 9943
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 15.83,
+      "cancellation_rate": 0.05,
+      "sample_size": 9406
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 11.03,
+      "cancellation_rate": 0.14,
+      "sample_size": 1647
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 17.66,
+      "cancellation_rate": 0.01,
+      "sample_size": 487
+    },
+    {
+      "train_type": "EST",
+      "average_delay": 12.67,
+      "cancellation_rate": 0.12,
+      "sample_size": 292
+    },
+    {
+      "train_type": "TRI",
+      "average_delay": 9.56,
+      "cancellation_rate": 0.18,
+      "sample_size": 11
+    }
+  ],
+  "Dresden Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.15,
+      "cancellation_rate": 0.02,
+      "sample_size": 39619
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.94,
+      "cancellation_rate": 0.02,
+      "sample_size": 17986
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.22,
+      "cancellation_rate": 0.02,
+      "sample_size": 6756
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.02,
+      "cancellation_rate": 0.01,
+      "sample_size": 3485
+    },
+    {
+      "train_type": "TL",
+      "average_delay": 2.33,
+      "cancellation_rate": 0.01,
+      "sample_size": 2641
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 6.25,
+      "cancellation_rate": 0.1,
+      "sample_size": 2625
+    },
+    {
+      "train_type": "TLX",
+      "average_delay": 2.18,
+      "cancellation_rate": 0.02,
+      "sample_size": 2347
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 6.49,
+      "cancellation_rate": 0.06,
+      "sample_size": 1343
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 12.19,
+      "cancellation_rate": 0.02,
+      "sample_size": 1295
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 13.19,
+      "cancellation_rate": 0.03,
+      "sample_size": 354
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 253
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 7.73,
+      "cancellation_rate": 0.03,
+      "sample_size": 179
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": 9.98,
+      "cancellation_rate": 0.02,
+      "sample_size": 179
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 27.59,
+      "cancellation_rate": 0.03,
+      "sample_size": 98
+    },
+    {
+      "train_type": "ES",
+      "average_delay": 35.37,
+      "cancellation_rate": 0.0,
+      "sample_size": 78
+    }
+  ],
+  "Dresden-Neustadt": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.24,
+      "cancellation_rate": 0.02,
+      "sample_size": 45874
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.19,
+      "cancellation_rate": 0.02,
+      "sample_size": 17682
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.57,
+      "cancellation_rate": 0.01,
+      "sample_size": 6625
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.09,
+      "cancellation_rate": 0.02,
+      "sample_size": 5685
+    },
+    {
+      "train_type": "TL",
+      "average_delay": 3.04,
+      "cancellation_rate": 0.01,
+      "sample_size": 4300
+    },
+    {
+      "train_type": "TLX",
+      "average_delay": 2.98,
+      "cancellation_rate": 0.02,
+      "sample_size": 3761
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 5.82,
+      "cancellation_rate": 0.09,
+      "sample_size": 2759
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1687
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 5.86,
+      "cancellation_rate": 0.07,
+      "sample_size": 1337
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 12.5,
+      "cancellation_rate": 0.03,
+      "sample_size": 1219
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 12.69,
+      "cancellation_rate": 0.04,
+      "sample_size": 312
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": 10.68,
+      "cancellation_rate": 0.06,
+      "sample_size": 173
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 7.62,
+      "cancellation_rate": 0.03,
+      "sample_size": 154
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 25.53,
+      "cancellation_rate": 0.07,
+      "sample_size": 87
+    },
+    {
+      "train_type": "ES",
+      "average_delay": 34.78,
+      "cancellation_rate": 0.0,
+      "sample_size": 76
+    },
+    {
+      "train_type": "D",
+      "average_delay": 3.4,
+      "cancellation_rate": 0.06,
+      "sample_size": 16
+    },
+    {
+      "train_type": "R",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Duisburg Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 6.83,
+      "cancellation_rate": 0.05,
+      "sample_size": 72994
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 7.49,
+      "cancellation_rate": 0.06,
+      "sample_size": 22423
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 14.31,
+      "cancellation_rate": 0.06,
+      "sample_size": 10853
+    },
+    {
+      "train_type": "S",
+      "average_delay": 3.37,
+      "cancellation_rate": 0.01,
+      "sample_size": 7929
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.65,
+      "cancellation_rate": 0.0,
+      "sample_size": 7443
+    },
+    {
+      "train_type": "RRB",
+      "average_delay": 5.17,
+      "cancellation_rate": 0.1,
+      "sample_size": 7253
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.76,
+      "cancellation_rate": 0.08,
+      "sample_size": 7244
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 4.73,
+      "cancellation_rate": 0.04,
+      "sample_size": 6307
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 14.27,
+      "cancellation_rate": 0.09,
+      "sample_size": 2045
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 21.36,
+      "cancellation_rate": 0.02,
+      "sample_size": 662
+    },
+    {
+      "train_type": "EST",
+      "average_delay": 12.96,
+      "cancellation_rate": 0.12,
+      "sample_size": 602
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 41.94,
+      "cancellation_rate": 0.08,
+      "sample_size": 212
+    },
+    {
+      "train_type": "TRI",
+      "average_delay": 10.89,
+      "cancellation_rate": 0.0,
+      "sample_size": 18
+    },
+    {
+      "train_type": "MSM",
+      "average_delay": 28.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 3
+    }
+  ],
+  "Düsseldorf Flughafen": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 6.74,
+      "cancellation_rate": 0.05,
+      "sample_size": 28312
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 7.51,
+      "cancellation_rate": 0.07,
+      "sample_size": 15029
+    },
+    {
+      "train_type": "S",
+      "average_delay": 3.6,
+      "cancellation_rate": 0.01,
+      "sample_size": 5889
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 4.8,
+      "cancellation_rate": 0.05,
+      "sample_size": 4421
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 13.87,
+      "cancellation_rate": 0.07,
+      "sample_size": 2351
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 333
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 18.08,
+      "cancellation_rate": 0.26,
+      "sample_size": 194
+    },
+    {
+      "train_type": "EST",
+      "average_delay": 14.3,
+      "cancellation_rate": 0.0,
+      "sample_size": 94
+    },
+    {
+      "train_type": "TRI",
+      "average_delay": 1.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Düsseldorf Flughafen Terminal": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.58,
+      "cancellation_rate": 0.1,
+      "sample_size": 8687
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.57,
+      "cancellation_rate": 0.1,
+      "sample_size": 8573
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.42,
+      "cancellation_rate": 0.14,
+      "sample_size": 72
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 42
+    }
+  ],
+  "Düsseldorf Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.94,
+      "cancellation_rate": 0.06,
+      "sample_size": 116659
+    },
+    {
+      "train_type": "S",
+      "average_delay": 3.28,
+      "cancellation_rate": 0.06,
+      "sample_size": 47989
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 7.72,
+      "cancellation_rate": 0.08,
+      "sample_size": 26273
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 3.14,
+      "cancellation_rate": 0.0,
+      "sample_size": 15047
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 13.87,
+      "cancellation_rate": 0.06,
+      "sample_size": 11782
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 4.56,
+      "cancellation_rate": 0.05,
+      "sample_size": 7012
+    },
+    {
+      "train_type": "RRB",
+      "average_delay": 6.38,
+      "cancellation_rate": 0.14,
+      "sample_size": 4638
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 13.37,
+      "cancellation_rate": 0.09,
+      "sample_size": 2228
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 22.25,
+      "cancellation_rate": 0.01,
+      "sample_size": 664
+    },
+    {
+      "train_type": "EST",
+      "average_delay": 11.94,
+      "cancellation_rate": 0.12,
+      "sample_size": 628
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 35.02,
+      "cancellation_rate": 0.1,
+      "sample_size": 332
+    },
+    {
+      "train_type": "TRI",
+      "average_delay": 10.14,
+      "cancellation_rate": 0.0,
+      "sample_size": 50
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 2.07,
+      "cancellation_rate": 0.0,
+      "sample_size": 14
+    },
+    {
+      "train_type": "MSM",
+      "average_delay": 23.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Erfurt Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.44,
+      "cancellation_rate": 0.03,
+      "sample_size": 47083
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.02,
+      "cancellation_rate": 0.01,
+      "sample_size": 19137
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.67,
+      "cancellation_rate": 0.02,
+      "sample_size": 18407
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 7.53,
+      "cancellation_rate": 0.06,
+      "sample_size": 8253
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 8.8,
+      "cancellation_rate": 0.12,
+      "sample_size": 533
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 18.94,
+      "cancellation_rate": 0.03,
+      "sample_size": 352
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 11.29,
+      "cancellation_rate": 0.1,
+      "sample_size": 110
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 7.51,
+      "cancellation_rate": 0.08,
+      "sample_size": 102
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 8.49,
+      "cancellation_rate": 0.05,
+      "sample_size": 102
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 87
+    }
+  ],
+  "Essen Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.34,
+      "cancellation_rate": 0.05,
+      "sample_size": 85100
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.66,
+      "cancellation_rate": 0.03,
+      "sample_size": 38523
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 7.13,
+      "cancellation_rate": 0.07,
+      "sample_size": 20613
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 13.62,
+      "cancellation_rate": 0.06,
+      "sample_size": 9875
+    },
+    {
+      "train_type": "RRB",
+      "average_delay": 4.99,
+      "cancellation_rate": 0.04,
+      "sample_size": 6117
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.28,
+      "cancellation_rate": 0.03,
+      "sample_size": 3690
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 2.2,
+      "cancellation_rate": 0.02,
+      "sample_size": 2406
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.19,
+      "cancellation_rate": 0.0,
+      "sample_size": 1721
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 16.33,
+      "cancellation_rate": 0.15,
+      "sample_size": 877
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 20.34,
+      "cancellation_rate": 0.03,
+      "sample_size": 656
+    },
+    {
+      "train_type": "EST",
+      "average_delay": 11.81,
+      "cancellation_rate": 0.12,
+      "sample_size": 600
+    },
+    {
+      "train_type": "TRI",
+      "average_delay": 9.95,
+      "cancellation_rate": 0.0,
+      "sample_size": 20
+    },
+    {
+      "train_type": "MSM",
+      "average_delay": 19.5,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Flughafen BER": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 1.04,
+      "cancellation_rate": 0.04,
+      "sample_size": 57245
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 24795
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.01,
+      "cancellation_rate": 0.16,
+      "sample_size": 10108
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.45,
+      "cancellation_rate": 0.04,
+      "sample_size": 9723
+    },
+    {
+      "train_type": "FEX",
+      "average_delay": 2.25,
+      "cancellation_rate": 0.03,
+      "sample_size": 6792
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.39,
+      "cancellation_rate": 0.06,
+      "sample_size": 4897
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 4.74,
+      "cancellation_rate": 0.06,
+      "sample_size": 919
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 7.9,
+      "cancellation_rate": 0.09,
+      "sample_size": 11
+    }
+  ],
+  "Frankfurt(Main)Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.23,
+      "cancellation_rate": 0.08,
+      "sample_size": 166983
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.82,
+      "cancellation_rate": 0.08,
+      "sample_size": 75150
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.22,
+      "cancellation_rate": 0.03,
+      "sample_size": 22832
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 10.46,
+      "cancellation_rate": 0.07,
+      "sample_size": 22230
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.86,
+      "cancellation_rate": 0.07,
+      "sample_size": 14391
+    },
+    {
+      "train_type": "HLB",
+      "average_delay": 3.02,
+      "cancellation_rate": 0.12,
+      "sample_size": 11895
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 4.52,
+      "cancellation_rate": 0.05,
+      "sample_size": 9730
+    },
+    {
+      "train_type": "STN",
+      "average_delay": 1.62,
+      "cancellation_rate": 0.19,
+      "sample_size": 5930
+    },
+    {
+      "train_type": "N",
+      "average_delay": 3.89,
+      "cancellation_rate": 0.1,
+      "sample_size": 2366
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 9.0,
+      "cancellation_rate": 0.16,
+      "sample_size": 1828
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 245
+    },
+    {
+      "train_type": "ECE",
+      "average_delay": 2.62,
+      "cancellation_rate": 0.05,
+      "sample_size": 182
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 24.06,
+      "cancellation_rate": 0.07,
+      "sample_size": 179
+    },
+    {
+      "train_type": "TGV",
+      "average_delay": -4.91,
+      "cancellation_rate": 0.08,
+      "sample_size": 25
+    }
+  ],
+  "Frankfurt(Main)Süd": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.38,
+      "cancellation_rate": 0.08,
+      "sample_size": 61553
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.06,
+      "cancellation_rate": 0.1,
+      "sample_size": 37396
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.2,
+      "cancellation_rate": 0.03,
+      "sample_size": 8436
+    },
+    {
+      "train_type": "HLB",
+      "average_delay": 3.52,
+      "cancellation_rate": 0.04,
+      "sample_size": 6412
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 4.04,
+      "cancellation_rate": 0.06,
+      "sample_size": 4492
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 7.18,
+      "cancellation_rate": 0.02,
+      "sample_size": 1761
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 5.96,
+      "cancellation_rate": 0.16,
+      "sample_size": 1116
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 19.45,
+      "cancellation_rate": 0.01,
+      "sample_size": 482
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 13.63,
+      "cancellation_rate": 0.07,
+      "sample_size": 377
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 376
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 13.06,
+      "cancellation_rate": 0.05,
+      "sample_size": 353
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 15.07,
+      "cancellation_rate": 0.07,
+      "sample_size": 174
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 15.34,
+      "cancellation_rate": 0.05,
+      "sample_size": 174
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 0.67,
+      "cancellation_rate": 0.0,
+      "sample_size": 3
+    },
+    {
+      "train_type": "MSM",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Frankfurt(Oder)": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.75,
+      "cancellation_rate": 0.07,
+      "sample_size": 19757
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.01,
+      "cancellation_rate": 0.07,
+      "sample_size": 9827
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.02,
+      "cancellation_rate": 0.05,
+      "sample_size": 5208
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2660
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 12.7,
+      "cancellation_rate": 0.07,
+      "sample_size": 1509
+    },
+    {
+      "train_type": "R",
+      "average_delay": 1.41,
+      "cancellation_rate": 0.53,
+      "sample_size": 546
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 6.25,
+      "cancellation_rate": 0.43,
+      "sample_size": 7
+    }
+  ],
+  "Freiburg(Breisgau) Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.43,
+      "cancellation_rate": 0.02,
+      "sample_size": 38295
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.73,
+      "cancellation_rate": 0.01,
+      "sample_size": 15723
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.13,
+      "cancellation_rate": 0.01,
+      "sample_size": 7060
+    },
+    {
+      "train_type": "SWE",
+      "average_delay": 1.86,
+      "cancellation_rate": 0.01,
+      "sample_size": 6238
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 7.88,
+      "cancellation_rate": 0.05,
+      "sample_size": 3706
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.26,
+      "cancellation_rate": 0.01,
+      "sample_size": 3613
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 17.63,
+      "cancellation_rate": 0.05,
+      "sample_size": 542
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 17.55,
+      "cancellation_rate": 0.06,
+      "sample_size": 542
+    },
+    {
+      "train_type": "TGV",
+      "average_delay": 3.06,
+      "cancellation_rate": 0.03,
+      "sample_size": 228
+    },
+    {
+      "train_type": "ECE",
+      "average_delay": 7.8,
+      "cancellation_rate": 0.05,
+      "sample_size": 182
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 22.89,
+      "cancellation_rate": 0.07,
+      "sample_size": 181
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 20.01,
+      "cancellation_rate": 0.04,
+      "sample_size": 181
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 21.22,
+      "cancellation_rate": 0.05,
+      "sample_size": 95
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 14.75,
+      "cancellation_rate": 0.0,
+      "sample_size": 4
+    }
+  ],
+  "Fulda": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 6.62,
+      "cancellation_rate": 0.05,
+      "sample_size": 27039
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 10.41,
+      "cancellation_rate": 0.08,
+      "sample_size": 10568
+    },
+    {
+      "train_type": "HLB",
+      "average_delay": 3.46,
+      "cancellation_rate": 0.03,
+      "sample_size": 6753
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.84,
+      "cancellation_rate": 0.01,
+      "sample_size": 4796
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.51,
+      "cancellation_rate": 0.01,
+      "sample_size": 3619
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 18.31,
+      "cancellation_rate": 0.02,
+      "sample_size": 451
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 10.08,
+      "cancellation_rate": 0.12,
+      "sample_size": 338
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 13.14,
+      "cancellation_rate": 0.4,
+      "sample_size": 154
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 14.2,
+      "cancellation_rate": 0.37,
+      "sample_size": 154
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 12.85,
+      "cancellation_rate": 0.39,
+      "sample_size": 154
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 2.47,
+      "cancellation_rate": 0.0,
+      "sample_size": 45
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 26.29,
+      "cancellation_rate": 0.0,
+      "sample_size": 7
+    }
+  ],
+  "Fürth(Bay)Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.68,
+      "cancellation_rate": 0.02,
+      "sample_size": 32228
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.48,
+      "cancellation_rate": 0.02,
+      "sample_size": 12398
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.77,
+      "cancellation_rate": 0.02,
+      "sample_size": 11296
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.39,
+      "cancellation_rate": 0.01,
+      "sample_size": 7818
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.03,
+      "cancellation_rate": 0.0,
+      "sample_size": 453
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 9.97,
+      "cancellation_rate": 0.12,
+      "sample_size": 178
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 9.1,
+      "cancellation_rate": 0.54,
+      "sample_size": 85
+    }
+  ],
+  "Gelsenkirchen Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.71,
+      "cancellation_rate": 0.05,
+      "sample_size": 31864
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.73,
+      "cancellation_rate": 0.05,
+      "sample_size": 14768
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 3.22,
+      "cancellation_rate": 0.06,
+      "sample_size": 6107
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.48,
+      "cancellation_rate": 0.02,
+      "sample_size": 4140
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.91,
+      "cancellation_rate": 0.02,
+      "sample_size": 3835
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 12.55,
+      "cancellation_rate": 0.17,
+      "sample_size": 1414
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.04,
+      "cancellation_rate": 0.0,
+      "sample_size": 1165
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 16.54,
+      "cancellation_rate": 0.21,
+      "sample_size": 258
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 27.2,
+      "cancellation_rate": 0.04,
+      "sample_size": 175
+    },
+    {
+      "train_type": "TRI",
+      "average_delay": 1.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Gießen": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.67,
+      "cancellation_rate": 0.04,
+      "sample_size": 34022
+    },
+    {
+      "train_type": "HLB",
+      "average_delay": 3.66,
+      "cancellation_rate": 0.03,
+      "sample_size": 27625
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.37,
+      "cancellation_rate": 0.0,
+      "sample_size": 2623
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.35,
+      "cancellation_rate": 0.03,
+      "sample_size": 2511
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 6.99,
+      "cancellation_rate": 0.2,
+      "sample_size": 1012
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 12.85,
+      "cancellation_rate": 0.1,
+      "sample_size": 248
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 3
+    }
+  ],
+  "Göttingen": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 6.23,
+      "cancellation_rate": 0.04,
+      "sample_size": 32562
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 11.12,
+      "cancellation_rate": 0.07,
+      "sample_size": 11660
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.15,
+      "cancellation_rate": 0.01,
+      "sample_size": 11525
+    },
+    {
+      "train_type": "ME",
+      "average_delay": 5.83,
+      "cancellation_rate": 0.03,
+      "sample_size": 3554
+    },
+    {
+      "train_type": "NWB",
+      "average_delay": 2.08,
+      "cancellation_rate": 0.01,
+      "sample_size": 2373
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.38,
+      "cancellation_rate": 0.02,
+      "sample_size": 1837
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 14.13,
+      "cancellation_rate": 0.1,
+      "sample_size": 661
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 21.77,
+      "cancellation_rate": 0.06,
+      "sample_size": 540
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": -0.02,
+      "cancellation_rate": 0.0,
+      "sample_size": 345
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 23.79,
+      "cancellation_rate": 0.0,
+      "sample_size": 61
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 2.33,
+      "cancellation_rate": 0.0,
+      "sample_size": 6
+    }
+  ],
+  "Hagen Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.25,
+      "cancellation_rate": 0.05,
+      "sample_size": 48156
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 7.36,
+      "cancellation_rate": 0.1,
+      "sample_size": 12389
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.51,
+      "cancellation_rate": 0.03,
+      "sample_size": 11199
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 7960
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.72,
+      "cancellation_rate": 0.02,
+      "sample_size": 7324
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 2.77,
+      "cancellation_rate": 0.01,
+      "sample_size": 5564
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 17.78,
+      "cancellation_rate": 0.09,
+      "sample_size": 3521
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 13.17,
+      "cancellation_rate": 0.13,
+      "sample_size": 199
+    }
+  ],
+  "Halle(Saale)Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.85,
+      "cancellation_rate": 0.05,
+      "sample_size": 57204
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.03,
+      "cancellation_rate": 0.07,
+      "sample_size": 26230
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.62,
+      "cancellation_rate": 0.02,
+      "sample_size": 12214
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.91,
+      "cancellation_rate": 0.03,
+      "sample_size": 6092
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 1.63,
+      "cancellation_rate": 0.0,
+      "sample_size": 5942
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 7.9,
+      "cancellation_rate": 0.08,
+      "sample_size": 3478
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 5.21,
+      "cancellation_rate": 0.04,
+      "sample_size": 2763
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 19.05,
+      "cancellation_rate": 0.02,
+      "sample_size": 352
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 15.76,
+      "cancellation_rate": 0.08,
+      "sample_size": 133
+    }
+  ],
+  "Hamburg Dammtor": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.15,
+      "cancellation_rate": 0.05,
+      "sample_size": 65344
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.4,
+      "cancellation_rate": 0.02,
+      "sample_size": 44016
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.26,
+      "cancellation_rate": 0.12,
+      "sample_size": 9245
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 9.55,
+      "cancellation_rate": 0.12,
+      "sample_size": 7362
+    },
+    {
+      "train_type": "NBE",
+      "average_delay": 4.41,
+      "cancellation_rate": 0.06,
+      "sample_size": 3216
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 15.19,
+      "cancellation_rate": 0.15,
+      "sample_size": 918
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 14.39,
+      "cancellation_rate": 0.1,
+      "sample_size": 357
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 3.8,
+      "cancellation_rate": 0.0,
+      "sample_size": 230
+    }
+  ],
+  "Hamburg Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.42,
+      "cancellation_rate": 0.04,
+      "sample_size": 172697
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.97,
+      "cancellation_rate": 0.02,
+      "sample_size": 111065
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.11,
+      "cancellation_rate": 0.09,
+      "sample_size": 19508
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 10.13,
+      "cancellation_rate": 0.13,
+      "sample_size": 14972
+    },
+    {
+      "train_type": "ME",
+      "average_delay": 4.89,
+      "cancellation_rate": 0.04,
+      "sample_size": 12581
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.24,
+      "cancellation_rate": 0.06,
+      "sample_size": 7621
+    },
+    {
+      "train_type": "NBE",
+      "average_delay": 4.47,
+      "cancellation_rate": 0.06,
+      "sample_size": 3218
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 15.83,
+      "cancellation_rate": 0.16,
+      "sample_size": 1299
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 9.14,
+      "cancellation_rate": 0.08,
+      "sample_size": 932
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 25.32,
+      "cancellation_rate": 0.03,
+      "sample_size": 620
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 14.64,
+      "cancellation_rate": 0.09,
+      "sample_size": 546
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 53.05,
+      "cancellation_rate": 0.09,
+      "sample_size": 161
+    },
+    {
+      "train_type": "D",
+      "average_delay": 10.22,
+      "cancellation_rate": 0.04,
+      "sample_size": 141
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 12.11,
+      "cancellation_rate": 0.0,
+      "sample_size": 27
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 5
+    },
+    {
+      "train_type": "R",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Hamburg-Altona": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.18,
+      "cancellation_rate": 0.03,
+      "sample_size": 108442
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.49,
+      "cancellation_rate": 0.02,
+      "sample_size": 91376
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 9.2,
+      "cancellation_rate": 0.14,
+      "sample_size": 7660
+    },
+    {
+      "train_type": "NBE",
+      "average_delay": 2.97,
+      "cancellation_rate": 0.04,
+      "sample_size": 4919
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.32,
+      "cancellation_rate": 0.15,
+      "sample_size": 3419
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 12.93,
+      "cancellation_rate": 0.09,
+      "sample_size": 546
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 8.93,
+      "cancellation_rate": 0.17,
+      "sample_size": 388
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.18,
+      "cancellation_rate": 0.0,
+      "sample_size": 78
+    },
+    {
+      "train_type": "RDC",
+      "average_delay": 15.1,
+      "cancellation_rate": 0.0,
+      "sample_size": 29
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 10.7,
+      "cancellation_rate": 0.0,
+      "sample_size": 27
+    }
+  ],
+  "Hamburg-Harburg": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.44,
+      "cancellation_rate": 0.04,
+      "sample_size": 69021
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.98,
+      "cancellation_rate": 0.02,
+      "sample_size": 40011
+    },
+    {
+      "train_type": "ME",
+      "average_delay": 5.62,
+      "cancellation_rate": 0.04,
+      "sample_size": 13120
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 12.36,
+      "cancellation_rate": 0.11,
+      "sample_size": 9567
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.42,
+      "cancellation_rate": 0.07,
+      "sample_size": 3747
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 15.69,
+      "cancellation_rate": 0.09,
+      "sample_size": 920
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 4.86,
+      "cancellation_rate": 0.04,
+      "sample_size": 811
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 17.51,
+      "cancellation_rate": 0.06,
+      "sample_size": 546
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 21.09,
+      "cancellation_rate": 0.03,
+      "sample_size": 274
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 15
+    },
+    {
+      "train_type": "D",
+      "average_delay": 0.83,
+      "cancellation_rate": 0.25,
+      "sample_size": 8
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 76.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Hamm(Westf)Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 7.82,
+      "cancellation_rate": 0.1,
+      "sample_size": 37346
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 7.78,
+      "cancellation_rate": 0.1,
+      "sample_size": 18451
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 5.84,
+      "cancellation_rate": 0.11,
+      "sample_size": 9637
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 15.95,
+      "cancellation_rate": 0.06,
+      "sample_size": 4314
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 3083
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 12.78,
+      "cancellation_rate": 0.25,
+      "sample_size": 1422
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 16.58,
+      "cancellation_rate": 0.02,
+      "sample_size": 407
+    },
+    {
+      "train_type": "TRI",
+      "average_delay": 7.41,
+      "cancellation_rate": 0.0,
+      "sample_size": 32
+    }
+  ],
+  "Hanau Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.49,
+      "cancellation_rate": 0.04,
+      "sample_size": 48298
+    },
+    {
+      "train_type": "S",
+      "average_delay": 3.13,
+      "cancellation_rate": 0.03,
+      "sample_size": 10562
+    },
+    {
+      "train_type": "HLB",
+      "average_delay": 3.07,
+      "cancellation_rate": 0.06,
+      "sample_size": 10516
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.04,
+      "cancellation_rate": 0.03,
+      "sample_size": 8531
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.64,
+      "cancellation_rate": 0.05,
+      "sample_size": 6235
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 13.22,
+      "cancellation_rate": 0.08,
+      "sample_size": 5031
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 3.33,
+      "cancellation_rate": 0.05,
+      "sample_size": 4838
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.01,
+      "cancellation_rate": 0.0,
+      "sample_size": 2165
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 9.34,
+      "cancellation_rate": 0.06,
+      "sample_size": 179
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 9.07,
+      "cancellation_rate": 0.06,
+      "sample_size": 179
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 22.55,
+      "cancellation_rate": 0.0,
+      "sample_size": 62
+    }
+  ],
+  "Hannover Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.51,
+      "cancellation_rate": 0.05,
+      "sample_size": 85669
+    },
+    {
+      "train_type": "S",
+      "average_delay": 3.07,
+      "cancellation_rate": 0.06,
+      "sample_size": 36288
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 12.27,
+      "cancellation_rate": 0.08,
+      "sample_size": 15340
+    },
+    {
+      "train_type": "WFB",
+      "average_delay": 4.86,
+      "cancellation_rate": 0.04,
+      "sample_size": 6821
+    },
+    {
+      "train_type": "ME",
+      "average_delay": 4.51,
+      "cancellation_rate": 0.04,
+      "sample_size": 5468
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 8.76,
+      "cancellation_rate": 0.08,
+      "sample_size": 4912
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.61,
+      "cancellation_rate": 0.04,
+      "sample_size": 4101
+    },
+    {
+      "train_type": "ENO",
+      "average_delay": 2.01,
+      "cancellation_rate": 0.01,
+      "sample_size": 4077
+    },
+    {
+      "train_type": "erx",
+      "average_delay": 3.54,
+      "cancellation_rate": 0.02,
+      "sample_size": 3345
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 5.51,
+      "cancellation_rate": 0.03,
+      "sample_size": 3333
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.15,
+      "cancellation_rate": 0.0,
+      "sample_size": 995
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 18.43,
+      "cancellation_rate": 0.06,
+      "sample_size": 546
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 18.7,
+      "cancellation_rate": 0.0,
+      "sample_size": 417
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 10.27,
+      "cancellation_rate": 0.0,
+      "sample_size": 26
+    }
+  ],
+  "Heidelberg Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.23,
+      "cancellation_rate": 0.03,
+      "sample_size": 38709
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.88,
+      "cancellation_rate": 0.02,
+      "sample_size": 24769
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.12,
+      "cancellation_rate": 0.03,
+      "sample_size": 10234
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 9.28,
+      "cancellation_rate": 0.08,
+      "sample_size": 2360
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 16.8,
+      "cancellation_rate": 0.02,
+      "sample_size": 418
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 5.32,
+      "cancellation_rate": 0.07,
+      "sample_size": 300
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 1.22,
+      "cancellation_rate": 0.0,
+      "sample_size": 261
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 7.02,
+      "cancellation_rate": 0.06,
+      "sample_size": 174
+    },
+    {
+      "train_type": "TGV",
+      "average_delay": 2.94,
+      "cancellation_rate": 0.0,
+      "sample_size": 162
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 6.97,
+      "cancellation_rate": 0.0,
+      "sample_size": 29
+    },
+    {
+      "train_type": "DBK",
+      "average_delay": 18.5,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Heilbronn Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.52,
+      "cancellation_rate": 0.01,
+      "sample_size": 24477
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 6.37,
+      "cancellation_rate": 0.0,
+      "sample_size": 10308
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.98,
+      "cancellation_rate": 0.03,
+      "sample_size": 6609
+    },
+    {
+      "train_type": "MEX",
+      "average_delay": 3.58,
+      "cancellation_rate": 0.03,
+      "sample_size": 5504
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.52,
+      "cancellation_rate": 0.02,
+      "sample_size": 1846
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 3.47,
+      "cancellation_rate": 0.07,
+      "sample_size": 136
+    },
+    {
+      "train_type": "S",
+      "average_delay": 0.89,
+      "cancellation_rate": 0.03,
+      "sample_size": 73
+    },
+    {
+      "train_type": "IRE",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Herford": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.25,
+      "cancellation_rate": 0.06,
+      "sample_size": 19166
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.3,
+      "cancellation_rate": 0.08,
+      "sample_size": 10163
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 6.61,
+      "cancellation_rate": 0.06,
+      "sample_size": 4684
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 1.87,
+      "cancellation_rate": 0.0,
+      "sample_size": 2104
+    },
+    {
+      "train_type": "WFB",
+      "average_delay": 3.8,
+      "cancellation_rate": 0.03,
+      "sample_size": 1676
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 11.96,
+      "cancellation_rate": 0.07,
+      "sample_size": 241
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 13.56,
+      "cancellation_rate": 0.02,
+      "sample_size": 170
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 13.3,
+      "cancellation_rate": 0.13,
+      "sample_size": 128
+    }
+  ],
+  "Hildesheim Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.22,
+      "cancellation_rate": 0.04,
+      "sample_size": 24697
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.97,
+      "cancellation_rate": 0.08,
+      "sample_size": 7440
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.67,
+      "cancellation_rate": 0.03,
+      "sample_size": 5992
+    },
+    {
+      "train_type": "ENO",
+      "average_delay": 2.84,
+      "cancellation_rate": 0.01,
+      "sample_size": 3973
+    },
+    {
+      "train_type": "erx",
+      "average_delay": 2.84,
+      "cancellation_rate": 0.02,
+      "sample_size": 3654
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 9.46,
+      "cancellation_rate": 0.06,
+      "sample_size": 2767
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 852
+    },
+    {
+      "train_type": "ME",
+      "average_delay": 11.94,
+      "cancellation_rate": 0.05,
+      "sample_size": 19
+    }
+  ],
+  "Ingolstadt Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.24,
+      "cancellation_rate": 0.08,
+      "sample_size": 25413
+    },
+    {
+      "train_type": "ag",
+      "average_delay": 3.6,
+      "cancellation_rate": 0.05,
+      "sample_size": 7202
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 11.69,
+      "cancellation_rate": 0.08,
+      "sample_size": 5165
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.85,
+      "cancellation_rate": 0.16,
+      "sample_size": 4297
+    },
+    {
+      "train_type": "BRB",
+      "average_delay": 2.62,
+      "cancellation_rate": 0.01,
+      "sample_size": 3965
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.8,
+      "cancellation_rate": 0.13,
+      "sample_size": 3668
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.01,
+      "cancellation_rate": 0.0,
+      "sample_size": 1114
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 0.0,
+      "cancellation_rate": 1.0,
+      "sample_size": 2
+    }
+  ],
+  "Kaiserslautern Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.78,
+      "cancellation_rate": 0.05,
+      "sample_size": 27058
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.55,
+      "cancellation_rate": 0.06,
+      "sample_size": 13290
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.92,
+      "cancellation_rate": 0.03,
+      "sample_size": 6547
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.56,
+      "cancellation_rate": 0.04,
+      "sample_size": 4702
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.08,
+      "cancellation_rate": 0.0,
+      "sample_size": 1491
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 5.43,
+      "cancellation_rate": 0.04,
+      "sample_size": 838
+    },
+    {
+      "train_type": "TGV",
+      "average_delay": 4.17,
+      "cancellation_rate": 0.03,
+      "sample_size": 190
+    }
+  ],
+  "Karlsruhe Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.93,
+      "cancellation_rate": 0.04,
+      "sample_size": 85023
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.86,
+      "cancellation_rate": 0.04,
+      "sample_size": 44651
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.44,
+      "cancellation_rate": 0.03,
+      "sample_size": 17091
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.26,
+      "cancellation_rate": 0.03,
+      "sample_size": 6719
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 6.67,
+      "cancellation_rate": 0.06,
+      "sample_size": 6673
+    },
+    {
+      "train_type": "IRE",
+      "average_delay": 3.73,
+      "cancellation_rate": 0.02,
+      "sample_size": 4702
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 8.93,
+      "cancellation_rate": 0.04,
+      "sample_size": 2055
+    },
+    {
+      "train_type": "TGV",
+      "average_delay": 6.61,
+      "cancellation_rate": 0.01,
+      "sample_size": 890
+    },
+    {
+      "train_type": "MEX",
+      "average_delay": 2.28,
+      "cancellation_rate": 0.02,
+      "sample_size": 742
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 19.89,
+      "cancellation_rate": 0.06,
+      "sample_size": 541
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.45,
+      "cancellation_rate": 0.01,
+      "sample_size": 316
+    },
+    {
+      "train_type": "ECE",
+      "average_delay": 7.47,
+      "cancellation_rate": 0.05,
+      "sample_size": 182
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 21.94,
+      "cancellation_rate": 0.03,
+      "sample_size": 180
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 21.62,
+      "cancellation_rate": 0.05,
+      "sample_size": 180
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 16.02,
+      "cancellation_rate": 0.05,
+      "sample_size": 95
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 4
+    },
+    {
+      "train_type": "SVG",
+      "average_delay": -9.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Kassel Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.21,
+      "cancellation_rate": 0.03,
+      "sample_size": 30900
+    },
+    {
+      "train_type": "RT",
+      "average_delay": 1.32,
+      "cancellation_rate": 0.04,
+      "sample_size": 14034
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.62,
+      "cancellation_rate": 0.01,
+      "sample_size": 10019
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.61,
+      "cancellation_rate": 0.03,
+      "sample_size": 4978
+    },
+    {
+      "train_type": "HLB",
+      "average_delay": 3.03,
+      "cancellation_rate": 0.04,
+      "sample_size": 1811
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.14,
+      "cancellation_rate": 0.0,
+      "sample_size": 58
+    }
+  ],
+  "Kassel-Wilhelmshöhe": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 6.0,
+      "cancellation_rate": 0.05,
+      "sample_size": 39343
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 10.81,
+      "cancellation_rate": 0.08,
+      "sample_size": 11856
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.54,
+      "cancellation_rate": 0.06,
+      "sample_size": 9991
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.65,
+      "cancellation_rate": 0.02,
+      "sample_size": 8987
+    },
+    {
+      "train_type": "RT",
+      "average_delay": 2.71,
+      "cancellation_rate": 0.01,
+      "sample_size": 5564
+    },
+    {
+      "train_type": "HLB",
+      "average_delay": 2.93,
+      "cancellation_rate": 0.04,
+      "sample_size": 1846
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 11.97,
+      "cancellation_rate": 0.18,
+      "sample_size": 882
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.06,
+      "cancellation_rate": 0.0,
+      "sample_size": 155
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 23.61,
+      "cancellation_rate": 0.0,
+      "sample_size": 62
+    }
+  ],
+  "Kiel Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.89,
+      "cancellation_rate": 0.06,
+      "sample_size": 28452
+    },
+    {
+      "train_type": "erx",
+      "average_delay": 1.55,
+      "cancellation_rate": 0.03,
+      "sample_size": 10775
+    },
+    {
+      "train_type": "NBE",
+      "average_delay": 2.54,
+      "cancellation_rate": 0.11,
+      "sample_size": 8995
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.1,
+      "cancellation_rate": 0.02,
+      "sample_size": 7285
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 9.65,
+      "cancellation_rate": 0.12,
+      "sample_size": 1396
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Koblenz Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.56,
+      "cancellation_rate": 0.07,
+      "sample_size": 43132
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 4.45,
+      "cancellation_rate": 0.07,
+      "sample_size": 17466
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.12,
+      "cancellation_rate": 0.06,
+      "sample_size": 14919
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 5.77,
+      "cancellation_rate": 0.13,
+      "sample_size": 3943
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 1.5,
+      "cancellation_rate": 0.03,
+      "sample_size": 3698
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 18.95,
+      "cancellation_rate": 0.07,
+      "sample_size": 1959
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 13.69,
+      "cancellation_rate": 0.06,
+      "sample_size": 833
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 32.79,
+      "cancellation_rate": 0.15,
+      "sample_size": 310
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 8.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 4
+    }
+  ],
+  "Köln Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 6.83,
+      "cancellation_rate": 0.08,
+      "sample_size": 97956
+    },
+    {
+      "train_type": "S",
+      "average_delay": 4.59,
+      "cancellation_rate": 0.08,
+      "sample_size": 34009
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 5.35,
+      "cancellation_rate": 0.07,
+      "sample_size": 24883
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 7.94,
+      "cancellation_rate": 0.08,
+      "sample_size": 23658
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 13.44,
+      "cancellation_rate": 0.09,
+      "sample_size": 11257
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 13.18,
+      "cancellation_rate": 0.09,
+      "sample_size": 1674
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.02,
+      "sample_size": 796
+    },
+    {
+      "train_type": "EST",
+      "average_delay": 6.83,
+      "cancellation_rate": 0.12,
+      "sample_size": 758
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 6.9,
+      "cancellation_rate": 0.03,
+      "sample_size": 596
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 40.98,
+      "cancellation_rate": 0.17,
+      "sample_size": 276
+    },
+    {
+      "train_type": "TRI",
+      "average_delay": 8.67,
+      "cancellation_rate": 0.0,
+      "sample_size": 46
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 2.5,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    },
+    {
+      "train_type": "MSM",
+      "average_delay": 67.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Köln Messe/Deutz": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 6.12,
+      "cancellation_rate": 0.07,
+      "sample_size": 90877
+    },
+    {
+      "train_type": "S",
+      "average_delay": 4.32,
+      "cancellation_rate": 0.08,
+      "sample_size": 34116
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 5.53,
+      "cancellation_rate": 0.07,
+      "sample_size": 24566
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 8.41,
+      "cancellation_rate": 0.06,
+      "sample_size": 20838
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 12.53,
+      "cancellation_rate": 0.09,
+      "sample_size": 6686
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.02,
+      "cancellation_rate": 0.0,
+      "sample_size": 3885
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 14.94,
+      "cancellation_rate": 0.13,
+      "sample_size": 381
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 33.58,
+      "cancellation_rate": 0.15,
+      "sample_size": 295
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 12.47,
+      "cancellation_rate": 0.03,
+      "sample_size": 64
+    },
+    {
+      "train_type": "TRI",
+      "average_delay": 10.55,
+      "cancellation_rate": 0.0,
+      "sample_size": 33
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 5.27,
+      "cancellation_rate": 0.0,
+      "sample_size": 11
+    },
+    {
+      "train_type": "MSM",
+      "average_delay": 4.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Landshut(Bay)Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.14,
+      "cancellation_rate": 0.05,
+      "sample_size": 18756
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.43,
+      "cancellation_rate": 0.03,
+      "sample_size": 9233
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.55,
+      "cancellation_rate": 0.09,
+      "sample_size": 5603
+    },
+    {
+      "train_type": "ALX",
+      "average_delay": 10.6,
+      "cancellation_rate": 0.05,
+      "sample_size": 2030
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.22,
+      "cancellation_rate": 0.0,
+      "sample_size": 1797
+    },
+    {
+      "train_type": "RJX",
+      "average_delay": 4.93,
+      "cancellation_rate": 0.01,
+      "sample_size": 90
+    },
+    {
+      "train_type": "IC",
+      "average_delay": -1.67,
+      "cancellation_rate": 0.0,
+      "sample_size": 3
+    }
+  ],
+  "Leipzig Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.67,
+      "cancellation_rate": 0.06,
+      "sample_size": 84667
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.14,
+      "cancellation_rate": 0.08,
+      "sample_size": 45357
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.13,
+      "cancellation_rate": 0.02,
+      "sample_size": 15917
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.83,
+      "cancellation_rate": 0.04,
+      "sample_size": 13612
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 7.07,
+      "cancellation_rate": 0.06,
+      "sample_size": 4983
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 5.04,
+      "cancellation_rate": 0.05,
+      "sample_size": 3987
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 21.93,
+      "cancellation_rate": 0.03,
+      "sample_size": 226
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 17.36,
+      "cancellation_rate": 0.08,
+      "sample_size": 189
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 18.33,
+      "cancellation_rate": 0.03,
+      "sample_size": 181
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 16.35,
+      "cancellation_rate": 0.06,
+      "sample_size": 180
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 35
+    }
+  ],
+  "Ludwigshafen(Rh)Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.69,
+      "cancellation_rate": 0.02,
+      "sample_size": 24742
+    },
+    {
+      "train_type": "S",
+      "average_delay": 3.4,
+      "cancellation_rate": 0.02,
+      "sample_size": 20472
+    },
+    {
+      "train_type": "N",
+      "average_delay": 5.67,
+      "cancellation_rate": 0.04,
+      "sample_size": 3259
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.45,
+      "cancellation_rate": 0.02,
+      "sample_size": 701
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.26,
+      "cancellation_rate": 0.08,
+      "sample_size": 307
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.5,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    },
+    {
+      "train_type": "TGV",
+      "average_delay": 0.0,
+      "cancellation_rate": 1.0,
+      "sample_size": 1
+    }
+  ],
+  "Lübeck Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 1.54,
+      "cancellation_rate": 0.02,
+      "sample_size": 33812
+    },
+    {
+      "train_type": "erx",
+      "average_delay": 1.92,
+      "cancellation_rate": 0.02,
+      "sample_size": 11517
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 1.54,
+      "cancellation_rate": 0.03,
+      "sample_size": 11397
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.68,
+      "cancellation_rate": 0.01,
+      "sample_size": 7377
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.05,
+      "cancellation_rate": 0.03,
+      "sample_size": 3123
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 12.05,
+      "cancellation_rate": 0.17,
+      "sample_size": 352
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 10.6,
+      "cancellation_rate": 0.09,
+      "sample_size": 46
+    }
+  ],
+  "Lüneburg": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.87,
+      "cancellation_rate": 0.07,
+      "sample_size": 16459
+    },
+    {
+      "train_type": "ME",
+      "average_delay": 5.85,
+      "cancellation_rate": 0.03,
+      "sample_size": 6942
+    },
+    {
+      "train_type": "erx",
+      "average_delay": 1.99,
+      "cancellation_rate": 0.06,
+      "sample_size": 4596
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 9.29,
+      "cancellation_rate": 0.14,
+      "sample_size": 4098
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 10.88,
+      "cancellation_rate": 0.14,
+      "sample_size": 430
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 22.27,
+      "cancellation_rate": 0.04,
+      "sample_size": 226
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 113
+    },
+    {
+      "train_type": "TEL",
+      "average_delay": 1.94,
+      "cancellation_rate": 0.0,
+      "sample_size": 36
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 8.0,
+      "cancellation_rate": 0.06,
+      "sample_size": 18
+    }
+  ],
+  "Magdeburg Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.58,
+      "cancellation_rate": 0.04,
+      "sample_size": 42594
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.54,
+      "cancellation_rate": 0.02,
+      "sample_size": 22843
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.56,
+      "cancellation_rate": 0.07,
+      "sample_size": 10164
+    },
+    {
+      "train_type": "S",
+      "average_delay": 3.22,
+      "cancellation_rate": 0.04,
+      "sample_size": 4537
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 6.61,
+      "cancellation_rate": 0.03,
+      "sample_size": 3626
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 1.14,
+      "cancellation_rate": 0.0,
+      "sample_size": 1059
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 23.1,
+      "cancellation_rate": 0.04,
+      "sample_size": 201
+    },
+    {
+      "train_type": "HBX",
+      "average_delay": 4.68,
+      "cancellation_rate": 0.0,
+      "sample_size": 163
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Mainz Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.78,
+      "cancellation_rate": 0.05,
+      "sample_size": 40484
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.66,
+      "cancellation_rate": 0.05,
+      "sample_size": 11682
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.95,
+      "cancellation_rate": 0.03,
+      "sample_size": 10512
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.97,
+      "cancellation_rate": 0.03,
+      "sample_size": 8298
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 10.84,
+      "cancellation_rate": 0.1,
+      "sample_size": 5271
+    },
+    {
+      "train_type": "N",
+      "average_delay": 5.52,
+      "cancellation_rate": 0.05,
+      "sample_size": 3247
+    },
+    {
+      "train_type": "HLB",
+      "average_delay": 6.3,
+      "cancellation_rate": 0.02,
+      "sample_size": 696
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 249
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 34.4,
+      "cancellation_rate": 0.2,
+      "sample_size": 187
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 18.46,
+      "cancellation_rate": 0.1,
+      "sample_size": 112
+    },
+    {
+      "train_type": "ECE",
+      "average_delay": 3.09,
+      "cancellation_rate": 0.65,
+      "sample_size": 91
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 8.87,
+      "cancellation_rate": 0.01,
+      "sample_size": 77
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 16.4,
+      "cancellation_rate": 0.0,
+      "sample_size": 62
+    }
+  ],
+  "Mannheim Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.61,
+      "cancellation_rate": 0.03,
+      "sample_size": 50552
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.38,
+      "cancellation_rate": 0.02,
+      "sample_size": 29974
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 6.71,
+      "cancellation_rate": 0.05,
+      "sample_size": 9255
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.85,
+      "cancellation_rate": 0.03,
+      "sample_size": 6702
+    },
+    {
+      "train_type": "N",
+      "average_delay": 4.91,
+      "cancellation_rate": 0.04,
+      "sample_size": 3259
+    },
+    {
+      "train_type": "TGV",
+      "average_delay": 5.75,
+      "cancellation_rate": 0.01,
+      "sample_size": 543
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.26,
+      "cancellation_rate": 0.06,
+      "sample_size": 264
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 1.4,
+      "cancellation_rate": 0.0,
+      "sample_size": 259
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 33.86,
+      "cancellation_rate": 0.44,
+      "sample_size": 140
+    },
+    {
+      "train_type": "ECE",
+      "average_delay": 10.44,
+      "cancellation_rate": 0.05,
+      "sample_size": 91
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 3.69,
+      "cancellation_rate": 0.06,
+      "sample_size": 63
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Mönchengladbach Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.19,
+      "cancellation_rate": 0.07,
+      "sample_size": 38462
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 6.33,
+      "cancellation_rate": 0.1,
+      "sample_size": 11291
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.4,
+      "cancellation_rate": 0.09,
+      "sample_size": 8569
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 5.66,
+      "cancellation_rate": 0.05,
+      "sample_size": 7515
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.61,
+      "cancellation_rate": 0.01,
+      "sample_size": 6656
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 4.54,
+      "cancellation_rate": 0.09,
+      "sample_size": 4000
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 15.06,
+      "cancellation_rate": 0.14,
+      "sample_size": 431
+    }
+  ],
+  "München Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.83,
+      "cancellation_rate": 0.05,
+      "sample_size": 190088
+    },
+    {
+      "train_type": "S",
+      "average_delay": 5.78,
+      "cancellation_rate": 0.05,
+      "sample_size": 90898
+    },
+    {
+      "train_type": "BRB",
+      "average_delay": 3.42,
+      "cancellation_rate": 0.02,
+      "sample_size": 25568
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 4.68,
+      "cancellation_rate": 0.08,
+      "sample_size": 25074
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.67,
+      "cancellation_rate": 0.04,
+      "sample_size": 19420
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 9.6,
+      "cancellation_rate": 0.08,
+      "sample_size": 19156
+    },
+    {
+      "train_type": "ALX",
+      "average_delay": 9.33,
+      "cancellation_rate": 0.05,
+      "sample_size": 1868
+    },
+    {
+      "train_type": "RJX",
+      "average_delay": 8.69,
+      "cancellation_rate": 0.02,
+      "sample_size": 1234
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": 12.75,
+      "cancellation_rate": 0.05,
+      "sample_size": 1217
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 6.79,
+      "cancellation_rate": 0.02,
+      "sample_size": 1146
+    },
+    {
+      "train_type": "ECE",
+      "average_delay": 8.2,
+      "cancellation_rate": 0.03,
+      "sample_size": 1060
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.16,
+      "cancellation_rate": 0.0,
+      "sample_size": 1002
+    },
+    {
+      "train_type": "WB",
+      "average_delay": 7.77,
+      "cancellation_rate": 0.02,
+      "sample_size": 815
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 18.78,
+      "cancellation_rate": 0.09,
+      "sample_size": 672
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 9.17,
+      "cancellation_rate": 0.18,
+      "sample_size": 606
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 9.29,
+      "cancellation_rate": 0.31,
+      "sample_size": 210
+    },
+    {
+      "train_type": "TGV",
+      "average_delay": 8.3,
+      "cancellation_rate": 0.01,
+      "sample_size": 140
+    },
+    {
+      "train_type": "MSM",
+      "average_delay": 9.5,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "München Ost": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.18,
+      "cancellation_rate": 0.05,
+      "sample_size": 105603
+    },
+    {
+      "train_type": "S",
+      "average_delay": 4.99,
+      "cancellation_rate": 0.05,
+      "sample_size": 88557
+    },
+    {
+      "train_type": "BRB",
+      "average_delay": 4.86,
+      "cancellation_rate": 0.03,
+      "sample_size": 7204
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 4.51,
+      "cancellation_rate": 0.08,
+      "sample_size": 4476
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": 12.19,
+      "cancellation_rate": 0.05,
+      "sample_size": 1149
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 7.22,
+      "cancellation_rate": 0.02,
+      "sample_size": 1146
+    },
+    {
+      "train_type": "WB",
+      "average_delay": 8.24,
+      "cancellation_rate": 0.03,
+      "sample_size": 806
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 9.54,
+      "cancellation_rate": 0.11,
+      "sample_size": 637
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 8.15,
+      "cancellation_rate": 0.21,
+      "sample_size": 494
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 17.58,
+      "cancellation_rate": 0.16,
+      "sample_size": 453
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.19,
+      "cancellation_rate": 0.04,
+      "sample_size": 378
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 11.29,
+      "cancellation_rate": 0.05,
+      "sample_size": 168
+    },
+    {
+      "train_type": "RJX",
+      "average_delay": 2.23,
+      "cancellation_rate": 0.01,
+      "sample_size": 71
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 10.56,
+      "cancellation_rate": 0.0,
+      "sample_size": 36
+    },
+    {
+      "train_type": "D",
+      "average_delay": 5.18,
+      "cancellation_rate": 0.21,
+      "sample_size": 28
+    }
+  ],
+  "München-Pasing": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.18,
+      "cancellation_rate": 0.05,
+      "sample_size": 85890
+    },
+    {
+      "train_type": "S",
+      "average_delay": 4.64,
+      "cancellation_rate": 0.06,
+      "sample_size": 50500
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 5.28,
+      "cancellation_rate": 0.05,
+      "sample_size": 17040
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.65,
+      "cancellation_rate": 0.03,
+      "sample_size": 10807
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 8.32,
+      "cancellation_rate": 0.08,
+      "sample_size": 6400
+    },
+    {
+      "train_type": "BRB",
+      "average_delay": 3.8,
+      "cancellation_rate": 0.01,
+      "sample_size": 727
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 12.62,
+      "cancellation_rate": 0.18,
+      "sample_size": 338
+    },
+    {
+      "train_type": "ECE",
+      "average_delay": 1.48,
+      "cancellation_rate": 0.36,
+      "sample_size": 78
+    }
+  ],
+  "Münster(Westf)Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.67,
+      "cancellation_rate": 0.06,
+      "sample_size": 53930
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.75,
+      "cancellation_rate": 0.05,
+      "sample_size": 29742
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.37,
+      "cancellation_rate": 0.08,
+      "sample_size": 13309
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 15.65,
+      "cancellation_rate": 0.05,
+      "sample_size": 4105
+    },
+    {
+      "train_type": "WFB",
+      "average_delay": 5.59,
+      "cancellation_rate": 0.05,
+      "sample_size": 3186
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 12.59,
+      "cancellation_rate": 0.13,
+      "sample_size": 2854
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.44,
+      "cancellation_rate": 0.0,
+      "sample_size": 457
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 22.58,
+      "cancellation_rate": 0.04,
+      "sample_size": 272
+    },
+    {
+      "train_type": "TRI",
+      "average_delay": 10.33,
+      "cancellation_rate": 0.0,
+      "sample_size": 3
+    },
+    {
+      "train_type": "MSM",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Neumünster": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.79,
+      "cancellation_rate": 0.06,
+      "sample_size": 23860
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.82,
+      "cancellation_rate": 0.08,
+      "sample_size": 10846
+    },
+    {
+      "train_type": "NBE",
+      "average_delay": 2.32,
+      "cancellation_rate": 0.03,
+      "sample_size": 7275
+    },
+    {
+      "train_type": "AKN",
+      "average_delay": 1.79,
+      "cancellation_rate": 0.0,
+      "sample_size": 3831
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 10.57,
+      "cancellation_rate": 0.12,
+      "sample_size": 1396
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 2.71,
+      "cancellation_rate": 0.01,
+      "sample_size": 486
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 1.25,
+      "cancellation_rate": 0.67,
+      "sample_size": 24
+    },
+    {
+      "train_type": "erx",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Neuss Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.89,
+      "cancellation_rate": 0.08,
+      "sample_size": 53577
+    },
+    {
+      "train_type": "S",
+      "average_delay": 3.53,
+      "cancellation_rate": 0.08,
+      "sample_size": 23802
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 9.06,
+      "cancellation_rate": 0.14,
+      "sample_size": 12094
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.47,
+      "cancellation_rate": 0.01,
+      "sample_size": 10804
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 1.84,
+      "cancellation_rate": 0.04,
+      "sample_size": 5549
+    },
+    {
+      "train_type": "TRI",
+      "average_delay": 3.81,
+      "cancellation_rate": 0.05,
+      "sample_size": 1212
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 26.84,
+      "cancellation_rate": 0.13,
+      "sample_size": 70
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 16.88,
+      "cancellation_rate": 0.3,
+      "sample_size": 46
+    }
+  ],
+  "Neustadt(Weinstr)Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.91,
+      "cancellation_rate": 0.04,
+      "sample_size": 26219
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.41,
+      "cancellation_rate": 0.04,
+      "sample_size": 12172
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.66,
+      "cancellation_rate": 0.02,
+      "sample_size": 7481
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.27,
+      "cancellation_rate": 0.06,
+      "sample_size": 5840
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 1.89,
+      "cancellation_rate": 0.0,
+      "sample_size": 374
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 4.55,
+      "cancellation_rate": 0.03,
+      "sample_size": 352
+    }
+  ],
+  "Nürnberg Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.86,
+      "cancellation_rate": 0.03,
+      "sample_size": 104523
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.62,
+      "cancellation_rate": 0.02,
+      "sample_size": 41319
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.21,
+      "cancellation_rate": 0.02,
+      "sample_size": 36545
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 11.65,
+      "cancellation_rate": 0.08,
+      "sample_size": 14410
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.21,
+      "cancellation_rate": 0.03,
+      "sample_size": 9857
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 5.14,
+      "cancellation_rate": 0.06,
+      "sample_size": 1621
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 40.79,
+      "cancellation_rate": 0.07,
+      "sample_size": 720
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.02,
+      "cancellation_rate": 0.0,
+      "sample_size": 51
+    }
+  ],
+  "Oberhausen Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.67,
+      "cancellation_rate": 0.08,
+      "sample_size": 44898
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.75,
+      "cancellation_rate": 0.12,
+      "sample_size": 8958
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 1.99,
+      "cancellation_rate": 0.0,
+      "sample_size": 8447
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 4.9,
+      "cancellation_rate": 0.08,
+      "sample_size": 7774
+    },
+    {
+      "train_type": "RRB",
+      "average_delay": 1.84,
+      "cancellation_rate": 0.16,
+      "sample_size": 7074
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.77,
+      "cancellation_rate": 0.08,
+      "sample_size": 6542
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.47,
+      "cancellation_rate": 0.06,
+      "sample_size": 3809
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 10.88,
+      "cancellation_rate": 0.06,
+      "sample_size": 1134
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 11.31,
+      "cancellation_rate": 0.11,
+      "sample_size": 1124
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 15.43,
+      "cancellation_rate": 0.07,
+      "sample_size": 30
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 5.5,
+      "cancellation_rate": 0.0,
+      "sample_size": 6
+    }
+  ],
+  "Offenburg": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.74,
+      "cancellation_rate": 0.02,
+      "sample_size": 26658
+    },
+    {
+      "train_type": "SWE",
+      "average_delay": 1.77,
+      "cancellation_rate": 0.02,
+      "sample_size": 11503
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.86,
+      "cancellation_rate": 0.01,
+      "sample_size": 7082
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.2,
+      "cancellation_rate": 0.01,
+      "sample_size": 3385
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 7.64,
+      "cancellation_rate": 0.05,
+      "sample_size": 2927
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 18.47,
+      "cancellation_rate": 0.05,
+      "sample_size": 541
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 18.94,
+      "cancellation_rate": 0.06,
+      "sample_size": 541
+    },
+    {
+      "train_type": "TGV",
+      "average_delay": 2.72,
+      "cancellation_rate": 0.03,
+      "sample_size": 228
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 23.1,
+      "cancellation_rate": 0.05,
+      "sample_size": 180
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 20.19,
+      "cancellation_rate": 0.03,
+      "sample_size": 180
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 18.01,
+      "cancellation_rate": 0.05,
+      "sample_size": 91
+    }
+  ],
+  "Oldenburg(Oldb)Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.0,
+      "cancellation_rate": 0.03,
+      "sample_size": 16327
+    },
+    {
+      "train_type": "NWB",
+      "average_delay": 3.11,
+      "cancellation_rate": 0.02,
+      "sample_size": 10776
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 5.52,
+      "cancellation_rate": 0.04,
+      "sample_size": 3337
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 5.83,
+      "cancellation_rate": 0.05,
+      "sample_size": 1623
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 9.13,
+      "cancellation_rate": 0.1,
+      "sample_size": 460
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.08,
+      "cancellation_rate": 0.0,
+      "sample_size": 131
+    }
+  ],
+  "Osnabrück Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 6.15,
+      "cancellation_rate": 0.04,
+      "sample_size": 32502
+    },
+    {
+      "train_type": "NWB",
+      "average_delay": 5.14,
+      "cancellation_rate": 0.03,
+      "sample_size": 10145
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.31,
+      "cancellation_rate": 0.03,
+      "sample_size": 8109
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 4.3,
+      "cancellation_rate": 0.07,
+      "sample_size": 5464
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 14.54,
+      "cancellation_rate": 0.04,
+      "sample_size": 3597
+    },
+    {
+      "train_type": "WFB",
+      "average_delay": 6.26,
+      "cancellation_rate": 0.02,
+      "sample_size": 1758
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": -1.55,
+      "cancellation_rate": 0.0,
+      "sample_size": 1695
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 17.16,
+      "cancellation_rate": 0.16,
+      "sample_size": 1526
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 25.21,
+      "cancellation_rate": 0.04,
+      "sample_size": 206
+    },
+    {
+      "train_type": "MSM",
+      "average_delay": 22.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Paderborn Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.23,
+      "cancellation_rate": 0.08,
+      "sample_size": 26296
+    },
+    {
+      "train_type": "NWB",
+      "average_delay": 3.06,
+      "cancellation_rate": 0.05,
+      "sample_size": 10152
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.78,
+      "cancellation_rate": 0.12,
+      "sample_size": 9086
+    },
+    {
+      "train_type": "S",
+      "average_delay": 3.69,
+      "cancellation_rate": 0.06,
+      "sample_size": 2979
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 9.5,
+      "cancellation_rate": 0.09,
+      "sample_size": 2961
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.01,
+      "cancellation_rate": 0.0,
+      "sample_size": 683
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 18.52,
+      "cancellation_rate": 0.22,
+      "sample_size": 296
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 17.49,
+      "cancellation_rate": 0.07,
+      "sample_size": 136
+    },
+    {
+      "train_type": "TRI",
+      "average_delay": 15.0,
+      "cancellation_rate": 0.33,
+      "sample_size": 3
+    }
+  ],
+  "Pforzheim Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.66,
+      "cancellation_rate": 0.04,
+      "sample_size": 29906
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.55,
+      "cancellation_rate": 0.04,
+      "sample_size": 12376
+    },
+    {
+      "train_type": "MEX",
+      "average_delay": 2.56,
+      "cancellation_rate": 0.02,
+      "sample_size": 6519
+    },
+    {
+      "train_type": "IRE",
+      "average_delay": 3.93,
+      "cancellation_rate": 0.03,
+      "sample_size": 4738
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.18,
+      "cancellation_rate": 0.1,
+      "sample_size": 3665
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 5.24,
+      "cancellation_rate": 0.07,
+      "sample_size": 1386
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1064
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 6.42,
+      "cancellation_rate": 0.06,
+      "sample_size": 158
+    }
+  ],
+  "Plochingen": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.88,
+      "cancellation_rate": 0.04,
+      "sample_size": 29751
+    },
+    {
+      "train_type": "MEX",
+      "average_delay": 3.92,
+      "cancellation_rate": 0.02,
+      "sample_size": 14592
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.61,
+      "cancellation_rate": 0.05,
+      "sample_size": 11391
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.61,
+      "cancellation_rate": 0.02,
+      "sample_size": 3360
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 2.17,
+      "cancellation_rate": 0.73,
+      "sample_size": 345
+    },
+    {
+      "train_type": "SVG",
+      "average_delay": 1.45,
+      "cancellation_rate": 0.27,
+      "sample_size": 30
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 22
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 0.0,
+      "cancellation_rate": 1.0,
+      "sample_size": 5
+    },
+    {
+      "train_type": "DBK",
+      "average_delay": 25.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    },
+    {
+      "train_type": "IRE",
+      "average_delay": 4.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 4.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2
+    }
+  ],
+  "Potsdam Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.13,
+      "cancellation_rate": 0.06,
+      "sample_size": 41831
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.83,
+      "cancellation_rate": 0.1,
+      "sample_size": 20136
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.26,
+      "cancellation_rate": 0.02,
+      "sample_size": 12486
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.58,
+      "cancellation_rate": 0.02,
+      "sample_size": 8318
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 5.24,
+      "cancellation_rate": 0.06,
+      "sample_size": 546
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 19.9,
+      "cancellation_rate": 0.06,
+      "sample_size": 182
+    },
+    {
+      "train_type": "HBX",
+      "average_delay": 1.28,
+      "cancellation_rate": 0.0,
+      "sample_size": 163
+    }
+  ],
+  "Regensburg Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.61,
+      "cancellation_rate": 0.03,
+      "sample_size": 27251
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.9,
+      "cancellation_rate": 0.03,
+      "sample_size": 10191
+    },
+    {
+      "train_type": "ag",
+      "average_delay": 3.9,
+      "cancellation_rate": 0.03,
+      "sample_size": 9021
+    },
+    {
+      "train_type": "OPB",
+      "average_delay": 1.78,
+      "cancellation_rate": 0.01,
+      "sample_size": 3234
+    },
+    {
+      "train_type": "ALX",
+      "average_delay": 11.62,
+      "cancellation_rate": 0.04,
+      "sample_size": 2030
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 17.9,
+      "cancellation_rate": 0.06,
+      "sample_size": 1807
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 44.55,
+      "cancellation_rate": 0.07,
+      "sample_size": 360
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 238
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.4,
+      "cancellation_rate": 0.06,
+      "sample_size": 188
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 7.38,
+      "cancellation_rate": 0.13,
+      "sample_size": 182
+    }
+  ],
+  "Rheine": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.94,
+      "cancellation_rate": 0.08,
+      "sample_size": 19586
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.13,
+      "cancellation_rate": 0.08,
+      "sample_size": 6815
+    },
+    {
+      "train_type": "WFB",
+      "average_delay": 6.75,
+      "cancellation_rate": 0.04,
+      "sample_size": 4632
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.59,
+      "cancellation_rate": 0.17,
+      "sample_size": 3029
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.82,
+      "cancellation_rate": 0.0,
+      "sample_size": 2923
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 13.96,
+      "cancellation_rate": 0.17,
+      "sample_size": 2129
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 9.52,
+      "cancellation_rate": 0.31,
+      "sample_size": 58
+    }
+  ],
+  "Rosenheim": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.44,
+      "cancellation_rate": 0.03,
+      "sample_size": 22492
+    },
+    {
+      "train_type": "BRB",
+      "average_delay": 3.66,
+      "cancellation_rate": 0.01,
+      "sample_size": 12939
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.19,
+      "cancellation_rate": 0.09,
+      "sample_size": 2970
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": 15.25,
+      "cancellation_rate": 0.02,
+      "sample_size": 1212
+    },
+    {
+      "train_type": "EC",
+      "average_delay": 8.43,
+      "cancellation_rate": 0.01,
+      "sample_size": 1146
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 20.13,
+      "cancellation_rate": 0.1,
+      "sample_size": 979
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.02,
+      "cancellation_rate": 0.0,
+      "sample_size": 855
+    },
+    {
+      "train_type": "WB",
+      "average_delay": 8.82,
+      "cancellation_rate": 0.02,
+      "sample_size": 806
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 9.19,
+      "cancellation_rate": 0.11,
+      "sample_size": 638
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 8.96,
+      "cancellation_rate": 0.16,
+      "sample_size": 526
+    },
+    {
+      "train_type": "RJX",
+      "average_delay": 8.26,
+      "cancellation_rate": 0.01,
+      "sample_size": 214
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 12.49,
+      "cancellation_rate": 0.04,
+      "sample_size": 179
+    },
+    {
+      "train_type": "D",
+      "average_delay": 5.54,
+      "cancellation_rate": 0.14,
+      "sample_size": 28
+    }
+  ],
+  "Rostock Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 1.76,
+      "cancellation_rate": 0.04,
+      "sample_size": 35921
+    },
+    {
+      "train_type": "S",
+      "average_delay": 0.92,
+      "cancellation_rate": 0.03,
+      "sample_size": 16472
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.31,
+      "cancellation_rate": 0.05,
+      "sample_size": 10343
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.81,
+      "cancellation_rate": 0.01,
+      "sample_size": 6826
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 2.72,
+      "cancellation_rate": 0.15,
+      "sample_size": 1881
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 8.73,
+      "cancellation_rate": 0.1,
+      "sample_size": 399
+    }
+  ],
+  "Saarbrücken Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 1.42,
+      "cancellation_rate": 0.07,
+      "sample_size": 50633
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.58,
+      "cancellation_rate": 0.04,
+      "sample_size": 21387
+    },
+    {
+      "train_type": "STB",
+      "average_delay": 0.55,
+      "cancellation_rate": 0.1,
+      "sample_size": 17975
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.21,
+      "cancellation_rate": 0.08,
+      "sample_size": 9904
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 5.29,
+      "cancellation_rate": 0.04,
+      "sample_size": 838
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 339
+    },
+    {
+      "train_type": "TGV",
+      "average_delay": 5.71,
+      "cancellation_rate": 0.03,
+      "sample_size": 190
+    }
+  ],
+  "Singen(Hohentwiel)": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 1.54,
+      "cancellation_rate": 0.02,
+      "sample_size": 26848
+    },
+    {
+      "train_type": "SBB",
+      "average_delay": 0.77,
+      "cancellation_rate": 0.0,
+      "sample_size": 13547
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.92,
+      "cancellation_rate": 0.01,
+      "sample_size": 5653
+    },
+    {
+      "train_type": "IRE",
+      "average_delay": 2.33,
+      "cancellation_rate": 0.02,
+      "sample_size": 3067
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 2.15,
+      "cancellation_rate": 0.06,
+      "sample_size": 3063
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 897
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.05,
+      "cancellation_rate": 0.02,
+      "sample_size": 303
+    },
+    {
+      "train_type": "SWE",
+      "average_delay": 1.37,
+      "cancellation_rate": 0.05,
+      "sample_size": 264
+    },
+    {
+      "train_type": "SVG",
+      "average_delay": 2.48,
+      "cancellation_rate": 0.26,
+      "sample_size": 54
+    }
+  ],
+  "Solingen Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.08,
+      "cancellation_rate": 0.09,
+      "sample_size": 30485
+    },
+    {
+      "train_type": "RRB",
+      "average_delay": 2.8,
+      "cancellation_rate": 0.13,
+      "sample_size": 8012
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 5.99,
+      "cancellation_rate": 0.06,
+      "sample_size": 6971
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.55,
+      "cancellation_rate": 0.06,
+      "sample_size": 6536
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.85,
+      "cancellation_rate": 0.0,
+      "sample_size": 3972
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 13.66,
+      "cancellation_rate": 0.13,
+      "sample_size": 3138
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 17.53,
+      "cancellation_rate": 0.16,
+      "sample_size": 1656
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 13.77,
+      "cancellation_rate": 0.14,
+      "sample_size": 200
+    }
+  ],
+  "Stuttgart Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.46,
+      "cancellation_rate": 0.04,
+      "sample_size": 138430
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.53,
+      "cancellation_rate": 0.05,
+      "sample_size": 67018
+    },
+    {
+      "train_type": "MEX",
+      "average_delay": 3.44,
+      "cancellation_rate": 0.02,
+      "sample_size": 32296
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.2,
+      "cancellation_rate": 0.03,
+      "sample_size": 14363
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 7.48,
+      "cancellation_rate": 0.08,
+      "sample_size": 9812
+    },
+    {
+      "train_type": "IRE",
+      "average_delay": 4.96,
+      "cancellation_rate": 0.04,
+      "sample_size": 8717
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 4.03,
+      "cancellation_rate": 0.06,
+      "sample_size": 4202
+    },
+    {
+      "train_type": "TGV",
+      "average_delay": 8.08,
+      "cancellation_rate": 0.02,
+      "sample_size": 538
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 3.95,
+      "cancellation_rate": 0.05,
+      "sample_size": 449
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 9.27,
+      "cancellation_rate": 0.12,
+      "sample_size": 326
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 17.79,
+      "cancellation_rate": 0.02,
+      "sample_size": 325
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 13.32,
+      "cancellation_rate": 0.1,
+      "sample_size": 153
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": 23.48,
+      "cancellation_rate": 0.07,
+      "sample_size": 72
+    },
+    {
+      "train_type": "RJX",
+      "average_delay": 1.56,
+      "cancellation_rate": 0.08,
+      "sample_size": 72
+    },
+    {
+      "train_type": "SVG",
+      "average_delay": 5.48,
+      "cancellation_rate": 0.25,
+      "sample_size": 56
+    },
+    {
+      "train_type": "D",
+      "average_delay": 15.11,
+      "cancellation_rate": 0.25,
+      "sample_size": 24
+    },
+    {
+      "train_type": "DBK",
+      "average_delay": 1.33,
+      "cancellation_rate": 0.0,
+      "sample_size": 6
+    },
+    {
+      "train_type": "GA",
+      "average_delay": 9.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 1
+    }
+  ],
+  "Trier Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.38,
+      "cancellation_rate": 0.04,
+      "sample_size": 20528
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.71,
+      "cancellation_rate": 0.04,
+      "sample_size": 12120
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 4.93,
+      "cancellation_rate": 0.04,
+      "sample_size": 7287
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.75,
+      "cancellation_rate": 0.0,
+      "sample_size": 1121
+    }
+  ],
+  "Tübingen Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.54,
+      "cancellation_rate": 0.04,
+      "sample_size": 29430
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.11,
+      "cancellation_rate": 0.05,
+      "sample_size": 14393
+    },
+    {
+      "train_type": "MEX",
+      "average_delay": 4.72,
+      "cancellation_rate": 0.04,
+      "sample_size": 6651
+    },
+    {
+      "train_type": "SWE",
+      "average_delay": 4.49,
+      "cancellation_rate": 0.01,
+      "sample_size": 4231
+    },
+    {
+      "train_type": "IRE",
+      "average_delay": 5.53,
+      "cancellation_rate": 0.03,
+      "sample_size": 4155
+    }
+  ],
+  "Uelzen": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 5.85,
+      "cancellation_rate": 0.09,
+      "sample_size": 18155
+    },
+    {
+      "train_type": "ME",
+      "average_delay": 6.25,
+      "cancellation_rate": 0.02,
+      "sample_size": 7288
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 8.71,
+      "cancellation_rate": 0.13,
+      "sample_size": 4527
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 2020
+    },
+    {
+      "train_type": "erx",
+      "average_delay": 3.83,
+      "cancellation_rate": 0.04,
+      "sample_size": 1765
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.6,
+      "cancellation_rate": 0.42,
+      "sample_size": 1717
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 11.61,
+      "cancellation_rate": 0.14,
+      "sample_size": 430
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 6.38,
+      "cancellation_rate": 0.02,
+      "sample_size": 322
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 29.45,
+      "cancellation_rate": 0.02,
+      "sample_size": 86
+    }
+  ],
+  "Ulm Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 3.13,
+      "cancellation_rate": 0.03,
+      "sample_size": 61268
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.72,
+      "cancellation_rate": 0.04,
+      "sample_size": 14193
+    },
+    {
+      "train_type": "N",
+      "average_delay": 1.98,
+      "cancellation_rate": 0.01,
+      "sample_size": 11772
+    },
+    {
+      "train_type": "SWE",
+      "average_delay": 1.8,
+      "cancellation_rate": 0.03,
+      "sample_size": 11147
+    },
+    {
+      "train_type": "IRE",
+      "average_delay": 2.09,
+      "cancellation_rate": 0.02,
+      "sample_size": 7842
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 7.79,
+      "cancellation_rate": 0.06,
+      "sample_size": 6574
+    },
+    {
+      "train_type": "MEX",
+      "average_delay": 2.08,
+      "cancellation_rate": 0.03,
+      "sample_size": 3716
+    },
+    {
+      "train_type": "ag",
+      "average_delay": 2.9,
+      "cancellation_rate": 0.01,
+      "sample_size": 3608
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.16,
+      "cancellation_rate": 0.01,
+      "sample_size": 803
+    },
+    {
+      "train_type": "EN",
+      "average_delay": 9.13,
+      "cancellation_rate": 0.12,
+      "sample_size": 323
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.98,
+      "cancellation_rate": 0.08,
+      "sample_size": 319
+    },
+    {
+      "train_type": "SAB",
+      "average_delay": 1.66,
+      "cancellation_rate": 0.11,
+      "sample_size": 291
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 9.69,
+      "cancellation_rate": 0.09,
+      "sample_size": 189
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 12.19,
+      "cancellation_rate": 0.11,
+      "sample_size": 152
+    },
+    {
+      "train_type": "TGV",
+      "average_delay": 9.52,
+      "cancellation_rate": 0.01,
+      "sample_size": 141
+    },
+    {
+      "train_type": "RJ",
+      "average_delay": 19.81,
+      "cancellation_rate": 0.07,
+      "sample_size": 72
+    },
+    {
+      "train_type": "RJX",
+      "average_delay": 3.7,
+      "cancellation_rate": 0.08,
+      "sample_size": 72
+    },
+    {
+      "train_type": "SVG",
+      "average_delay": 0.86,
+      "cancellation_rate": 0.27,
+      "sample_size": 30
+    },
+    {
+      "train_type": "D",
+      "average_delay": 15.17,
+      "cancellation_rate": 0.25,
+      "sample_size": 24
+    }
+  ],
+  "Weimar": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.34,
+      "cancellation_rate": 0.01,
+      "sample_size": 3837
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.08,
+      "cancellation_rate": 0.01,
+      "sample_size": 2180
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 2.6,
+      "cancellation_rate": 0.01,
+      "sample_size": 1540
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 68
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 11.71,
+      "cancellation_rate": 0.21,
+      "sample_size": 48
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 0.0,
+      "cancellation_rate": 1.0,
+      "sample_size": 1
+    }
+  ],
+  "Wiesbaden Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.89,
+      "cancellation_rate": 0.04,
+      "sample_size": 45049
+    },
+    {
+      "train_type": "S",
+      "average_delay": 2.67,
+      "cancellation_rate": 0.03,
+      "sample_size": 22660
+    },
+    {
+      "train_type": "HLB",
+      "average_delay": 2.26,
+      "cancellation_rate": 0.02,
+      "sample_size": 9117
+    },
+    {
+      "train_type": "VIA",
+      "average_delay": 4.07,
+      "cancellation_rate": 0.13,
+      "sample_size": 5484
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.21,
+      "cancellation_rate": 0.0,
+      "sample_size": 4106
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 7.77,
+      "cancellation_rate": 0.08,
+      "sample_size": 3492
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 4.94,
+      "cancellation_rate": 0.09,
+      "sample_size": 190
+    }
+  ],
+  "Wolfsburg Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 4.87,
+      "cancellation_rate": 0.04,
+      "sample_size": 21487
+    },
+    {
+      "train_type": "ENO",
+      "average_delay": 2.02,
+      "cancellation_rate": 0.02,
+      "sample_size": 9785
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 11.03,
+      "cancellation_rate": 0.06,
+      "sample_size": 6828
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.85,
+      "cancellation_rate": 0.07,
+      "sample_size": 4250
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.09,
+      "cancellation_rate": 0.06,
+      "sample_size": 416
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.0,
+      "cancellation_rate": 0.0,
+      "sample_size": 146
+    },
+    {
+      "train_type": "FLX",
+      "average_delay": 22.68,
+      "cancellation_rate": 0.0,
+      "sample_size": 62
+    }
+  ],
+  "Worms Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 2.02,
+      "cancellation_rate": 0.03,
+      "sample_size": 18404
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 1.53,
+      "cancellation_rate": 0.04,
+      "sample_size": 9927
+    },
+    {
+      "train_type": "N",
+      "average_delay": 5.12,
+      "cancellation_rate": 0.04,
+      "sample_size": 3261
+    },
+    {
+      "train_type": "S",
+      "average_delay": 1.72,
+      "cancellation_rate": 0.02,
+      "sample_size": 3078
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": -0.03,
+      "cancellation_rate": 0.0,
+      "sample_size": 2060
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 2.38,
+      "cancellation_rate": 0.03,
+      "sample_size": 78
+    }
+  ],
+  "Wuppertal Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 6.13,
+      "cancellation_rate": 0.09,
+      "sample_size": 52576
+    },
+    {
+      "train_type": "S",
+      "average_delay": 4.03,
+      "cancellation_rate": 0.07,
+      "sample_size": 18298
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 9.91,
+      "cancellation_rate": 0.12,
+      "sample_size": 11016
+    },
+    {
+      "train_type": "RRB",
+      "average_delay": 3.65,
+      "cancellation_rate": 0.16,
+      "sample_size": 8190
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 6.29,
+      "cancellation_rate": 0.1,
+      "sample_size": 6217
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 1.42,
+      "cancellation_rate": 0.0,
+      "sample_size": 5188
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 18.42,
+      "cancellation_rate": 0.1,
+      "sample_size": 3469
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 13.14,
+      "cancellation_rate": 0.13,
+      "sample_size": 198
+    }
+  ],
+  "Würzburg Hbf": [
+    {
+      "train_type": "alle Züge",
+      "average_delay": 6.29,
+      "cancellation_rate": 0.04,
+      "sample_size": 40610
+    },
+    {
+      "train_type": "RE",
+      "average_delay": 3.49,
+      "cancellation_rate": 0.02,
+      "sample_size": 17556
+    },
+    {
+      "train_type": "RB",
+      "average_delay": 2.47,
+      "cancellation_rate": 0.04,
+      "sample_size": 10643
+    },
+    {
+      "train_type": "ICE",
+      "average_delay": 13.13,
+      "cancellation_rate": 0.05,
+      "sample_size": 10535
+    },
+    {
+      "train_type": "Bus",
+      "average_delay": 0.03,
+      "cancellation_rate": 0.03,
+      "sample_size": 911
+    },
+    {
+      "train_type": "NJ",
+      "average_delay": 40.82,
+      "cancellation_rate": 0.07,
+      "sample_size": 720
+    },
+    {
+      "train_type": "IC",
+      "average_delay": 9.74,
+      "cancellation_rate": 0.12,
+      "sample_size": 220
+    },
+    {
+      "train_type": "UEX",
+      "average_delay": 20.68,
+      "cancellation_rate": 0.0,
+      "sample_size": 25
+    }
+  ]
+}

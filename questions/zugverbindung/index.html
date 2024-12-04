@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=800">
+    <meta name="description" content="Deutsche Bahn Statistiken">
+    <title>Deutsche Bahn Statistiken</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../index.js"></script>
+    <script defer data-domain="piebro.github.io/deutsche-bahn-statistics" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+    <!-- header generated with scripts/generate_html_links.py -->
+    <header class="header">
+        <div class="left-nav">
+            <a href="../direkter_zug">←</a>
+            <a href="..">alle Fragen</a>
+            <a href="../verspaetungsverlauf_zugfahrt">→</a>
+        </div>
+        <nav>
+            <a href="../about.html">About</a>
+            <a href="https://github.com/piebro/deutsche-bahn-statistics">Code</a>
+            <a href="https://github.com/piebro/deutsche-bahn-data">Daten</a>
+            <a href="https://piebro.github.io/">andere Projekte</a>
+        </nav>
+    </header>
+    <!-- end of generated header-->
+
+    
+    <h1 id="Verspätungen pro Zugverbindung">Welche Fernverkehrszüge haben am meisten Verspätungen?</h1>
+    <div id="content">
+        <p>
+            Viele Fernverkehrszüge haben eine eindeutige Nummer in den Daten und damit lässte sich die Pünktlichkeit und Ausfallquote aller Ferverbindungen von ICE, IC, FLX (FlixTrain) oder EC (EuroCity) ermitteln.
+        </p>
+        <div class="filter-options"></div>
+            <label><input type="checkbox" id="min-samples" checked> Mindestens 100 geplante Fahrten</label>
+        </div>
+        <br>
+        <div id="table-container"></div>
+    </div>
+
+    <script>
+        const columns = [
+            { key: 'train_name', label: 'Zugname' },
+            { key: 'avg_delay', label: 'Durchschnittliche Verspätung [min]', format: value => value.toFixed(2) },
+            { key: 'cancellation_percentage', label: 'Ausfallquote', format: value => value.toFixed(2) },
+            { key: 'sample_count', label: 'Anzahl an geplanten Fahrten' }
+        ];
+
+        const files = [
+            {
+                label: 'Alle Züge',
+                file: 'data/long_distance_train_stats.json',
+                filter: (data) => {
+                    const minSamples = document.getElementById('min-samples').checked;
+                    return data.filter(row => {
+                        if (minSamples && row['sample_count'] < 100) return false;
+                        return true;
+                    });
+                },
+                filterTriggerElementList: ['#min-samples']  
+            }
+        ];
+        setupTable('table-container', files, columns, defaultSort = { column: 'sample_count', direction: 'desc' });
+        
+    </script>
+
+    <!-- footer generated with scripts/generate_html_links.py -->
+    <p>
+        Quelle: <a href="https://github.com/piebro/deutsche-bahn-statistics/blob/main/questions/zugverbindung/calculations.py">Berechnet</a>
+        auf Basis von
+        <a href="https://github.com/piebro/deutsche-bahn-data">gesammelten Daten</a>
+        von der Deutschen Bahn vom 2024.09.01 bis 2024.12.01.
+
+        <nav class="question-nav">
+            <a href="../direkter_zug" class="prev-question">Vorherige Frage</a>
+            <a href="../verspaetungsverlauf_zugfahrt" class="next-question">Wie verändert sich die durchschnittliche Verspätung im Verlauf einer Zugfahrt?</a>
+        </nav>
+    </p>
+    <!-- end of generated footer -->
+</body>
+</html>

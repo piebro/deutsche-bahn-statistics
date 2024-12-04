@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;
+    height: 100%;
+    font: 100%/1.5 sans-serif;
+    word-wrap: break-word;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 125%;
+        max-width: 55em;
+    }
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 40vh;
+}
+
+
+body > p {
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+h1, h2, h3, h4 {
+    margin: 2.5rem 0 1.5rem 0;
+    line-height: 1.25;
+    color: #333;
+}
+
+a {
+    color: #fa6432;
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: underline;
+}
+
+p {
+    margin: 1em 0;
+    line-height: 1.5;
+}
+
+p code {
+    background-color: #eee;
+    padding: 0.05em 0.2em;
+    border: 1px solid #ccc;
+}
+
+img {
+    width: 100%
+}
+
+li {
+    list-style-position: inside;
+}
+.table-container {
+    position: relative;
+    border: 1px solid #ddd;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    font-family: monospace, monospace;
+    width: 100%;
+}
+
+table th, table td {
+    padding: 0.15em 0.65em;
+    text-align: left;
+    min-width: 5em;
+    border: 1px solid #ddd;    
+}
+
+thead tr {
+    background-color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .left-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header a + a {
+    margin-left: 0;
+}
+
+
+.tab-container {
+    margin-top: 20px;
+}
+
+.tab-buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.tab-button {
+    background-color: #f1f1f1;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+    background-color: #ddd;
+}
+
+.tab-button.active {
+    background-color: #fa6432;
+    color: white;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+
+.question-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: initial;
+    text-align: left;
+}
+
+.question-nav a {   
+    padding: 10px 20px;
+    background-color: #fa6432;
+    color: white;
+    font-size: 0.8rem;
+    flex: 0 1 auto;
+    white-space: normal;
+    text-align: center;
+    min-width: 150px;
+    max-width: 100%;
+}
+
+.question-nav a:hover {
+    background-color: #e55a2b;
+    text-decoration: none;
+}
+
+.prev-question {
+    margin-right: auto;
+}
+
+.prev-question::before {
+    content: "← ";
+}
+
+.next-question {
+    margin-left: auto;
+}
+
+.next-question::after {
+    content: " →";
+}
+
+.sortable {
+    cursor: pointer;
+}
+
+select {
+    min-width: 200px;
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+select:hover {
+    border-color: #fa6432;
+}
+
+select:focus {
+    outline: none;
+    border-color: #fa6432;
+    box-shadow: 0 0 0 2px rgba(250, 100, 50, 0.2);
+}
+
+.filter-options {
+    margin: 10px 0;
+}
+
+.filter-options label {
+    margin-right: 20px;
+}
+
+.questions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.question-card {
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.question-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.question-card h4 {
+    margin: 0 0 0.5rem;
+    color: #ff9571;
+}
+
+.question-card p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.highlight {
+    background-color: rgba(250, 100, 50, 0.15);
+    color: #fa6432;
+    padding: 0.05em 0.2em;
+    border-radius: 2px;
+    font-weight: 500;
+}

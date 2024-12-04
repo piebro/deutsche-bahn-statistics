@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=800">
+    <meta name="description" content="Deutsche Bahn Statistiken">
+    <title>Deutsche Bahn Statistiken</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../index.js"></script>
+    <script defer data-domain="piebro.github.io/deutsche-bahn-statistics" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+    <!-- header generated with scripts/generate_html_links.py -->
+    <header class="header">
+        <div class="left-nav">
+            <a href="../allgemein">←</a>
+            <a href="..">alle Fragen</a>
+            <a href="../direkter_zug">→</a>
+        </div>
+        <nav>
+            <a href="../about.html">About</a>
+            <a href="https://github.com/piebro/deutsche-bahn-statistics">Code</a>
+            <a href="https://github.com/piebro/deutsche-bahn-data">Daten</a>
+            <a href="https://piebro.github.io/">andere Projekte</a>
+        </nav>
+    </header>
+    <!-- end of generated header-->
+
+    
+    <h1 id="Verspätungen nach Uhrzeit, Monat, Wochentag und Tag">Um wie viel Uhr ist die Bahn am unpünktlichsten?</h1>
+    <div id="time-period-buttons"></div>
+    <div id="description-texts">
+        <p>
+            Hier sind die Verspätungen, Pünktlichkeit, Ausfälle und Anzahl der Halte von Zügen in Deutschland nach Uhrzeit, Monat, Wochentag und Tag aufgeschlüsselt.
+        </p>
+        <p id="default-text" style="display: block">
+            Zur Berechnung von Uhrzeit, Wochentag und Tag werden die Zugdaten der letzten drei Monate verwendet.
+        </p>
+        <p id="month-text" style="display: none">
+            Die Zugdaten werden seit Juli 2024 aufgenommen. Daher gibt es hier noch nicht so viele Datenpunkte um einen Trend zu sehen.
+            Das wird sich aber mit der Zeit bessern und in Zukunft lässt sich sagen, ob die Bahn pünktlicher geworden ist oder nicht.
+        </p>
+    </div>
+    <div id="content">
+        <div class="plot-container">
+            <img src="data/uhrzeit/delays.png" alt="Durchschnittliche Verspätung" id="delays">
+            <img src="data/uhrzeit/punctuality.png" alt="Pünktlichkeit" id="punctuality">
+            <img src="data/uhrzeit/cancellations.png" alt="Ausgefallene Züge" id="cancellations">
+            <img src="data/uhrzeit/stops.png" alt="Anzahl Halte" id="stops">
+        </div>
+    </div>
+
+    <script>
+    let originalStartDate;
+
+    function setupTimePeriodButtons() {
+        const footerDateText = document.querySelector('p > a[href*="deutsche-bahn-data"]').nextSibling;
+        originalStartDate = footerDateText.textContent.match(/vom (2024\.\d+\.\d+)/)[1];
+        
+        const periods = [
+            { id: 'uhrzeit', label: 'Uhrzeit' },    
+            { id: 'monat', label: 'Monat' },
+            { id: 'wochentag', label: 'Wochentag' },
+            { id: 'tag', label: 'Tag' }
+        ];
+        
+        const buttonsContainer = document.getElementById('time-period-buttons');
+        buttonsContainer.className = 'tab-buttons';
+        
+        periods.forEach((period, index) => {
+            const button = document.createElement('button');
+            button.className = `tab-button ${index === 0 ? 'active' : ''}`;
+            button.textContent = period.label;
+            button.onclick = () => {
+                document.querySelectorAll('#time-period-buttons .tab-button')
+                    .forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                updateImages(period.id);
+            };
+            buttonsContainer.appendChild(button);
+        });
+        console.log("asd")
+    }
+
+    function updateImages(periodType) {
+        const imageTypes = ['cancellations', 'delays', 'punctuality', 'stops'];
+        imageTypes.forEach(type => {
+            const img = document.getElementById(type);
+            img.src = `data/${periodType}/${type}.png`;
+        });
+
+        const monthText = document.getElementById('month-text');
+        const defaultText = document.getElementById('default-text');
+        const footerDateText = document.querySelector('p > a[href*="deutsche-bahn-data"]').nextSibling;
+        
+        if (periodType === 'monat') {
+            monthText.style.display = 'block';
+            defaultText.style.display = 'none';
+            footerDateText.textContent = footerDateText.textContent.replace(/vom (2024\.\d+\.\d+)/, 'vom 2024.07.01');
+        } else {
+            monthText.style.display = 'none';
+            defaultText.style.display = 'block';
+            footerDateText.textContent = footerDateText.textContent.replace(/vom (2024\.\d+\.\d+)/, `vom ${originalStartDate}`);
+        }
+    }
+
+    // Initialize the buttons when the page loads
+    document.addEventListener('DOMContentLoaded', () => {
+        setupTimePeriodButtons();
+    });
+    </script>
+
+    <!-- footer generated with scripts/generate_html_links.py -->
+    <p>
+        Quelle: <a href="https://github.com/piebro/deutsche-bahn-statistics/blob/main/questions/zeitraum/calculations.py">Berechnet</a>
+        auf Basis von
+        <a href="https://github.com/piebro/deutsche-bahn-data">gesammelten Daten</a>
+        von der Deutschen Bahn vom 2024.09.01 bis 2024.12.01.
+
+        <nav class="question-nav">
+            <a href="../allgemein" class="prev-question">Vorherige Frage</a>
+            <a href="../direkter_zug" class="next-question">Was sind die schnellsten Direktverbindungen zwischen zwei Bahnhöfen?</a>
+        </nav>
+    </p>
+    <!-- end of generated footer -->
+</body>
+</html>

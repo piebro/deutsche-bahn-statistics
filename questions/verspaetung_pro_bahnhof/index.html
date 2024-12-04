@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=800">
+    <meta name="description" content="Deutsche Bahn Statistiken">
+    <title>Deutsche Bahn Statistiken</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../index.js"></script>
+    <script defer data-domain="piebro.github.io/deutsche-bahn-statistics" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+    <!-- header generated with scripts/generate_html_links.py -->
+    <header class="header">
+        <div class="left-nav">
+            <a href="../verspaetungsverlauf_zugfahrt">←</a>
+            <a href="..">alle Fragen</a>
+            <a href="../zuggattungen_pro_bahnhof">→</a>
+        </div>
+        <nav>
+            <a href="../about.html">About</a>
+            <a href="https://github.com/piebro/deutsche-bahn-statistics">Code</a>
+            <a href="https://github.com/piebro/deutsche-bahn-data">Daten</a>
+            <a href="https://piebro.github.io/">andere Projekte</a>
+        </nav>
+    </header>
+    <!-- end of generated header-->
+
+    
+    <h1 id="Verspätungen pro Bahnhof">Wie ist die durchschnittle Verspätung pro Bahnhof?</h1>
+    <div id="content">
+        <p>
+            Die Tabellen zeigen wie die durchschnittlichen Verspätungen und Ausfallquote pro Bahnhof ist.
+            Dabei ist zu beachten das die durschnittliche Verspätung stark damit zusammenhängt welche Zuggattungen an dem Bahnhof halten.
+            Die Stichprobengröße gibt an wie viele Zughalte es an dem Bahnhof gab und damit auch wie viele Zughalte benutzt wurden zur Berechnungen.
+        </p>
+        <div id="delay-table-container"></div>
+    </div>
+
+    <script>
+        const files = [
+            {label: 'Alle Züge', file: 'data/Durchschnittliche Verspätungen an Bahnhöfen und Anzahl an Halten.json'},
+            {label: 'ICE', file: 'data/[ICE] Durchschnittliche Verspätungen an Bahnhöfen und Anzahl an Halten.json'},
+            {label: 'IC', file: 'data/[IC] Durchschnittliche Verspätungen an Bahnhöfen und Anzahl an Halten.json'},
+            {label: 'RB', file: 'data/[RB] Durchschnittliche Verspätungen an Bahnhöfen und Anzahl an Halten.json'},
+            {label: 'RE', file: 'data/[RE] Durchschnittliche Verspätungen an Bahnhöfen und Anzahl an Halten.json'},
+            {label: 'S' , file: 'data/[S] Durchschnittliche Verspätungen an Bahnhöfen und Anzahl an Halten.json'}
+        ];
+
+        const columns = [
+            { key: 'station', label: 'Bahnhof' },
+            { key: 'average_delay', label: 'Durchschnittliche Verspätung [min]', format: value => value.toFixed(2) },
+            { key: 'cancellation_rate', label: 'Ausfallquote', format: value => value.toFixed(2) },
+            { key: 'sample_size', label: 'Stichprobengröße' }
+        ];
+
+        setupTable('delay-table-container', files, columns, defaultSort = { column: 'average_delay', direction: 'desc' });
+    </script>
+    <!-- footer generated with scripts/generate_html_links.py -->
+    <p>
+        Quelle: <a href="https://github.com/piebro/deutsche-bahn-statistics/blob/main/questions/verspaetung_pro_bahnhof/calculations.py">Berechnet</a>
+        auf Basis von
+        <a href="https://github.com/piebro/deutsche-bahn-data">gesammelten Daten</a>
+        von der Deutschen Bahn vom 2024.09.01 bis 2024.12.01.
+
+        <nav class="question-nav">
+            <a href="../verspaetungsverlauf_zugfahrt" class="prev-question">Vorherige Frage</a>
+            <a href="../zuggattungen_pro_bahnhof" class="next-question">An welchem Bahnhof halten die meisten ICE, RE oder andere Zuggattungen?</a>
+        </nav>
+    </p>
+    <!-- end of generated footer -->
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=800">
+    <meta name="description" content="Monthly updated interactive statistics of OpenStreetMap.">
+    <title>Deutsche Bahn Statistiken</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer data-domain="piebro.github.io/deutsche-bahn-statistics" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+    <header class='header'>
+        <a class="logo" href=".."></a>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="https://github.com/piebro/deutsche-bahn-statistics">Code</a>
+            <a href="https://github.com/piebro/deutsche-bahn-data">Daten</a>
+            <a href="https://piebro.github.io/">andere Projekte</a>
+        </nav>
+    </header>
+    <h1>Deutsche Bahn Statistiken</h1>
+    <div>
+        <p>
+            Dies ist eine Website mit monatlich aktualisierte Statistiken über die Züge und den ca. 100 größten Bahnhöfen der Deutschen Bahn.
+            Die meisten Statistiken basieren auf den aus den letzten drei Monaten. Insgesamt werden die Daten seid Juli 2024 gesammelt.
+        </p>
+    </div>
+    <div class="questions-grid">
+        <!-- generated with scripts/generate_html_links.py -->
+        <a href="allgemein" class="question-card">
+            <h4>Allgemeine Statistiken</h4>
+            <p>Was ist die durchschnittliche Verspätung von allen Zügen?</p>
+        </a>
+        <a href="zeitraum" class="question-card">
+            <h4>Verspätungen nach Uhrzeit, Monat, Wochentag und Tag</h4>
+            <p>Um wie viel Uhr ist die Bahn am unpünktlichsten?</p>
+        </a>
+        <a href="direkter_zug" class="question-card">
+            <h4>Schnellste Direktverbindungen</h4>
+            <p>Was sind die schnellsten Direktverbindungen zwischen zwei Bahnhöfen?</p>
+        </a>
+        <a href="zugverbindung" class="question-card">
+            <h4>Verspätungen pro Zugverbindung</h4>
+            <p>Welche Fernverkehrszüge haben am meisten Verspätungen?</p>
+        </a>
+        <a href="verspaetungsverlauf_zugfahrt" class="question-card">
+            <h4>Verspätung im Verlauf einer Zugfahrt</h4>
+            <p>Wie verändert sich die durchschnittliche Verspätung im Verlauf einer Zugfahrt?</p>
+        </a>
+        <a href="verspaetung_pro_bahnhof" class="question-card">
+            <h4>Verspätungen pro Bahnhof</h4>
+            <p>Wie ist die durchschnittle Verspätung pro Bahnhof?</p>
+        </a>
+        <a href="zuggattungen_pro_bahnhof" class="question-card">
+            <h4>Zuggattungen pro Bahnhof</h4>
+            <p>An welchem Bahnhof halten die meisten ICE, RE oder andere Zuggattungen?</p>
+        </a>
+        <a href="bahnhof" class="question-card">
+            <h4>Statistiken für einen Bahnhof</h4>
+            <p>Wie ist die durchschnittle Verspätung von Zügen in einem Bahnhof?</p>
+        </a>
+        <a href="zuggattung" class="question-card">
+            <h4>Verspätung pro Zuggattung</h4>
+            <p>Wie verteilen sich Verspätungen auf verschiedene Zuggattungen?</p>
+        </a>
+        <!-- end of generated links-->
+    </div>
+</body>
+</html>

@@ -1,0 +1,1102 @@
+[
+    {
+        "station": "Frankfurt(Main)Hbf",
+        "IC": 1828,
+        "ICE": 22230,
+        "RB": 14391,
+        "RE": 22832,
+        "S": 75150,
+        "Sonstige": 30552,
+        "Total": 166983
+    },
+    {
+        "station": "München Hbf",
+        "IC": 606,
+        "ICE": 19156,
+        "RB": 25074,
+        "RE": 19420,
+        "S": 90898,
+        "Sonstige": 34934,
+        "Total": 190088
+    },
+    {
+        "station": "Berlin Hbf",
+        "IC": 3061,
+        "ICE": 18694,
+        "RB": 8155,
+        "RE": 35379,
+        "S": 60704,
+        "Sonstige": 11015,
+        "Total": 137008
+    },
+    {
+        "station": "Hannover Hbf",
+        "IC": 4912,
+        "ICE": 15340,
+        "RB": 3333,
+        "RE": 4101,
+        "S": 36288,
+        "Sonstige": 21695,
+        "Total": 85669
+    },
+    {
+        "station": "Hamburg Hbf",
+        "IC": 1299,
+        "ICE": 14972,
+        "RB": 7621,
+        "RE": 19508,
+        "S": 111065,
+        "Sonstige": 18232,
+        "Total": 172697
+    },
+    {
+        "station": "Nürnberg Hbf",
+        "IC": 1621,
+        "ICE": 14410,
+        "RB": 9857,
+        "RE": 36545,
+        "S": 41319,
+        "Sonstige": 771,
+        "Total": 104523
+    },
+    {
+        "station": "Berlin-Spandau",
+        "IC": 1047,
+        "ICE": 13249,
+        "RB": 8231,
+        "RE": 14361,
+        "S": 21495,
+        "Sonstige": 704,
+        "Total": 59087
+    },
+    {
+        "station": "Kassel-Wilhelmshöhe",
+        "IC": 882,
+        "ICE": 11856,
+        "RB": 8987,
+        "RE": 9991,
+        "S": 0,
+        "Sonstige": 7627,
+        "Total": 39343
+    },
+    {
+        "station": "Düsseldorf Hbf",
+        "IC": 2228,
+        "ICE": 11782,
+        "RB": 0,
+        "RE": 26273,
+        "S": 47989,
+        "Sonstige": 28387,
+        "Total": 116659
+    },
+    {
+        "station": "Göttingen",
+        "IC": 661,
+        "ICE": 11660,
+        "RB": 11525,
+        "RE": 1837,
+        "S": 0,
+        "Sonstige": 6879,
+        "Total": 32562
+    },
+    {
+        "station": "Köln Hbf",
+        "IC": 1674,
+        "ICE": 11257,
+        "RB": 24883,
+        "RE": 23658,
+        "S": 34009,
+        "Sonstige": 2475,
+        "Total": 97956
+    },
+    {
+        "station": "Duisburg Hbf",
+        "IC": 2045,
+        "ICE": 10853,
+        "RB": 7244,
+        "RE": 22423,
+        "S": 7929,
+        "Sonstige": 22500,
+        "Total": 72994
+    },
+    {
+        "station": "Fulda",
+        "IC": 338,
+        "ICE": 10568,
+        "RB": 3619,
+        "RE": 4796,
+        "S": 0,
+        "Sonstige": 7718,
+        "Total": 27039
+    },
+    {
+        "station": "Würzburg Hbf",
+        "IC": 220,
+        "ICE": 10535,
+        "RB": 10643,
+        "RE": 17556,
+        "S": 0,
+        "Sonstige": 1656,
+        "Total": 40610
+    },
+    {
+        "station": "Essen Hbf",
+        "IC": 877,
+        "ICE": 9875,
+        "RB": 3690,
+        "RE": 20613,
+        "S": 38523,
+        "Sonstige": 11522,
+        "Total": 85100
+    },
+    {
+        "station": "Stuttgart Hbf",
+        "IC": 4202,
+        "ICE": 9812,
+        "RB": 449,
+        "RE": 14363,
+        "S": 67018,
+        "Sonstige": 42586,
+        "Total": 138430
+    },
+    {
+        "station": "Hamburg-Harburg",
+        "IC": 920,
+        "ICE": 9567,
+        "RB": 811,
+        "RE": 3747,
+        "S": 40011,
+        "Sonstige": 13965,
+        "Total": 69021
+    },
+    {
+        "station": "Dortmund Hbf",
+        "IC": 1647,
+        "ICE": 9406,
+        "RB": 25066,
+        "RE": 19698,
+        "S": 22418,
+        "Sonstige": 10733,
+        "Total": 88968
+    },
+    {
+        "station": "Mannheim Hbf",
+        "IC": 63,
+        "ICE": 9255,
+        "RB": 264,
+        "RE": 6702,
+        "S": 29974,
+        "Sonstige": 4294,
+        "Total": 50552
+    },
+    {
+        "station": "Berlin Ostbahnhof",
+        "IC": 1395,
+        "ICE": 9108,
+        "RB": 3146,
+        "RE": 20723,
+        "S": 81660,
+        "Sonstige": 2400,
+        "Total": 118432
+    },
+    {
+        "station": "Erfurt Hbf",
+        "IC": 533,
+        "ICE": 8253,
+        "RB": 19137,
+        "RE": 18407,
+        "S": 0,
+        "Sonstige": 753,
+        "Total": 47083
+    },
+    {
+        "station": "Augsburg Hbf",
+        "IC": 353,
+        "ICE": 8136,
+        "RB": 7940,
+        "RE": 15142,
+        "S": 0,
+        "Sonstige": 24096,
+        "Total": 55667
+    },
+    {
+        "station": "Berlin Südkreuz",
+        "IC": 1405,
+        "ICE": 7987,
+        "RB": 4584,
+        "RE": 13231,
+        "S": 97917,
+        "Sonstige": 2098,
+        "Total": 127222
+    },
+    {
+        "station": "Hamburg-Altona",
+        "IC": 388,
+        "ICE": 7660,
+        "RB": 0,
+        "RE": 3419,
+        "S": 91376,
+        "Sonstige": 5599,
+        "Total": 108442
+    },
+    {
+        "station": "Hamburg Dammtor",
+        "IC": 918,
+        "ICE": 7362,
+        "RB": 0,
+        "RE": 9245,
+        "S": 44016,
+        "Sonstige": 3803,
+        "Total": 65344
+    },
+    {
+        "station": "Wolfsburg Hbf",
+        "IC": 0,
+        "ICE": 6828,
+        "RB": 4250,
+        "RE": 416,
+        "S": 0,
+        "Sonstige": 9993,
+        "Total": 21487
+    },
+    {
+        "station": "Bochum Hbf",
+        "IC": 374,
+        "ICE": 6799,
+        "RB": 3719,
+        "RE": 9372,
+        "S": 10924,
+        "Sonstige": 8162,
+        "Total": 39350
+    },
+    {
+        "station": "Köln Messe/Deutz",
+        "IC": 381,
+        "ICE": 6686,
+        "RB": 24566,
+        "RE": 20838,
+        "S": 34116,
+        "Sonstige": 4290,
+        "Total": 90877
+    },
+    {
+        "station": "Karlsruhe Hbf",
+        "IC": 2055,
+        "ICE": 6673,
+        "RB": 6719,
+        "RE": 17091,
+        "S": 44651,
+        "Sonstige": 7834,
+        "Total": 85023
+    },
+    {
+        "station": "Ulm Hbf",
+        "IC": 189,
+        "ICE": 6574,
+        "RB": 319,
+        "RE": 14193,
+        "S": 0,
+        "Sonstige": 39993,
+        "Total": 61268
+    },
+    {
+        "station": "München-Pasing",
+        "IC": 338,
+        "ICE": 6400,
+        "RB": 17040,
+        "RE": 10807,
+        "S": 50500,
+        "Sonstige": 805,
+        "Total": 85890
+    },
+    {
+        "station": "Mainz Hbf",
+        "IC": 112,
+        "ICE": 5271,
+        "RB": 11682,
+        "RE": 8298,
+        "S": 10512,
+        "Sonstige": 4609,
+        "Total": 40484
+    },
+    {
+        "station": "Ingolstadt Hbf",
+        "IC": 2,
+        "ICE": 5165,
+        "RB": 4297,
+        "RE": 3668,
+        "S": 0,
+        "Sonstige": 12281,
+        "Total": 25413
+    },
+    {
+        "station": "Darmstadt Hbf",
+        "IC": 334,
+        "ICE": 5045,
+        "RB": 256,
+        "RE": 6749,
+        "S": 7985,
+        "Sonstige": 10230,
+        "Total": 30599
+    },
+    {
+        "station": "Hanau Hbf",
+        "IC": 179,
+        "ICE": 5031,
+        "RB": 6235,
+        "RE": 8531,
+        "S": 10562,
+        "Sonstige": 17760,
+        "Total": 48298
+    },
+    {
+        "station": "Leipzig Hbf",
+        "IC": 3987,
+        "ICE": 4983,
+        "RB": 13612,
+        "RE": 15917,
+        "S": 45357,
+        "Sonstige": 811,
+        "Total": 84667
+    },
+    {
+        "station": "Bremen Hbf",
+        "IC": 2450,
+        "ICE": 4691,
+        "RB": 1769,
+        "RE": 9292,
+        "S": 0,
+        "Sonstige": 35537,
+        "Total": 53739
+    },
+    {
+        "station": "Uelzen",
+        "IC": 430,
+        "ICE": 4527,
+        "RB": 1717,
+        "RE": 322,
+        "S": 0,
+        "Sonstige": 11159,
+        "Total": 18155
+    },
+    {
+        "station": "Hamm(Westf)Hbf",
+        "IC": 1422,
+        "ICE": 4314,
+        "RB": 9637,
+        "RE": 18451,
+        "S": 0,
+        "Sonstige": 3522,
+        "Total": 37346
+    },
+    {
+        "station": "Münster(Westf)Hbf",
+        "IC": 2854,
+        "ICE": 4105,
+        "RB": 29742,
+        "RE": 13309,
+        "S": 0,
+        "Sonstige": 3920,
+        "Total": 53930
+    },
+    {
+        "station": "Lüneburg",
+        "IC": 430,
+        "ICE": 4098,
+        "RB": 0,
+        "RE": 0,
+        "S": 0,
+        "Sonstige": 11931,
+        "Total": 16459
+    },
+    {
+        "station": "Bielefeld Hbf",
+        "IC": 253,
+        "ICE": 4043,
+        "RB": 11825,
+        "RE": 6715,
+        "S": 0,
+        "Sonstige": 16064,
+        "Total": 38900
+    },
+    {
+        "station": "Aschaffenburg Hbf",
+        "IC": 0,
+        "ICE": 3763,
+        "RB": 3799,
+        "RE": 4517,
+        "S": 0,
+        "Sonstige": 9712,
+        "Total": 21791
+    },
+    {
+        "station": "Freiburg(Breisgau) Hbf",
+        "IC": 542,
+        "ICE": 3706,
+        "RB": 7060,
+        "RE": 3613,
+        "S": 15723,
+        "Sonstige": 7651,
+        "Total": 38295
+    },
+    {
+        "station": "Osnabrück Hbf",
+        "IC": 1526,
+        "ICE": 3597,
+        "RB": 5464,
+        "RE": 8109,
+        "S": 0,
+        "Sonstige": 13806,
+        "Total": 32502
+    },
+    {
+        "station": "Hagen Hbf",
+        "IC": 199,
+        "ICE": 3521,
+        "RB": 7324,
+        "RE": 12389,
+        "S": 11199,
+        "Sonstige": 13524,
+        "Total": 48156
+    },
+    {
+        "station": "Wiesbaden Hbf",
+        "IC": 0,
+        "ICE": 3492,
+        "RB": 190,
+        "RE": 0,
+        "S": 22660,
+        "Sonstige": 18707,
+        "Total": 45049
+    },
+    {
+        "station": "Halle(Saale)Hbf",
+        "IC": 2763,
+        "ICE": 3478,
+        "RB": 6092,
+        "RE": 12214,
+        "S": 26230,
+        "Sonstige": 6427,
+        "Total": 57204
+    },
+    {
+        "station": "Wuppertal Hbf",
+        "IC": 198,
+        "ICE": 3469,
+        "RB": 6217,
+        "RE": 11016,
+        "S": 18298,
+        "Sonstige": 13378,
+        "Total": 52576
+    },
+    {
+        "station": "Berlin Gesundbrunnen",
+        "IC": 1188,
+        "ICE": 3148,
+        "RB": 3603,
+        "RE": 8300,
+        "S": 80897,
+        "Sonstige": 14653,
+        "Total": 111789
+    },
+    {
+        "station": "Braunschweig Hbf",
+        "IC": 3002,
+        "ICE": 3035,
+        "RB": 16150,
+        "RE": 0,
+        "S": 0,
+        "Sonstige": 22320,
+        "Total": 44507
+    },
+    {
+        "station": "Offenburg",
+        "IC": 541,
+        "ICE": 2927,
+        "RB": 3385,
+        "RE": 7082,
+        "S": 0,
+        "Sonstige": 12723,
+        "Total": 26658
+    },
+    {
+        "station": "Hildesheim Hbf",
+        "IC": 0,
+        "ICE": 2767,
+        "RB": 5992,
+        "RE": 0,
+        "S": 7440,
+        "Sonstige": 8498,
+        "Total": 24697
+    },
+    {
+        "station": "Heidelberg Hbf",
+        "IC": 300,
+        "ICE": 2360,
+        "RB": 29,
+        "RE": 10234,
+        "S": 24769,
+        "Sonstige": 1017,
+        "Total": 38709
+    },
+    {
+        "station": "Düsseldorf Flughafen",
+        "IC": 194,
+        "ICE": 2351,
+        "RB": 0,
+        "RE": 15029,
+        "S": 5889,
+        "Sonstige": 4849,
+        "Total": 28312
+    },
+    {
+        "station": "Bamberg",
+        "IC": 861,
+        "ICE": 2161,
+        "RB": 5799,
+        "RE": 12920,
+        "S": 3557,
+        "Sonstige": 6801,
+        "Total": 32099
+    },
+    {
+        "station": "Koblenz Hbf",
+        "IC": 833,
+        "ICE": 1959,
+        "RB": 17466,
+        "RE": 14919,
+        "S": 0,
+        "Sonstige": 7955,
+        "Total": 43132
+    },
+    {
+        "station": "Regensburg Hbf",
+        "IC": 182,
+        "ICE": 1807,
+        "RB": 188,
+        "RE": 10191,
+        "S": 0,
+        "Sonstige": 14883,
+        "Total": 27251
+    },
+    {
+        "station": "Solingen Hbf",
+        "IC": 200,
+        "ICE": 1656,
+        "RB": 6971,
+        "RE": 3138,
+        "S": 6536,
+        "Sonstige": 11984,
+        "Total": 30485
+    },
+    {
+        "station": "Bruchsal",
+        "IC": 148,
+        "ICE": 1562,
+        "RB": 2465,
+        "RE": 4821,
+        "S": 29687,
+        "Sonstige": 3281,
+        "Total": 41964
+    },
+    {
+        "station": "Aachen Hbf",
+        "IC": 0,
+        "ICE": 1529,
+        "RB": 13504,
+        "RE": 18065,
+        "S": 303,
+        "Sonstige": 2717,
+        "Total": 36118
+    },
+    {
+        "station": "Neumünster",
+        "IC": 0,
+        "ICE": 1396,
+        "RB": 0,
+        "RE": 10846,
+        "S": 0,
+        "Sonstige": 11618,
+        "Total": 23860
+    },
+    {
+        "station": "Kiel Hbf",
+        "IC": 0,
+        "ICE": 1396,
+        "RB": 0,
+        "RE": 7285,
+        "S": 0,
+        "Sonstige": 19771,
+        "Total": 28452
+    },
+    {
+        "station": "Dresden Hbf",
+        "IC": 2625,
+        "ICE": 1343,
+        "RB": 3485,
+        "RE": 6756,
+        "S": 17986,
+        "Sonstige": 7424,
+        "Total": 39619
+    },
+    {
+        "station": "Dresden-Neustadt",
+        "IC": 2759,
+        "ICE": 1337,
+        "RB": 5685,
+        "RE": 6625,
+        "S": 17682,
+        "Sonstige": 11786,
+        "Total": 45874
+    },
+    {
+        "station": "Oberhausen Hbf",
+        "IC": 1134,
+        "ICE": 1124,
+        "RB": 3809,
+        "RE": 8958,
+        "S": 6542,
+        "Sonstige": 23331,
+        "Total": 44898
+    },
+    {
+        "station": "Frankfurt(Main)Süd",
+        "IC": 353,
+        "ICE": 1116,
+        "RB": 4492,
+        "RE": 8436,
+        "S": 37396,
+        "Sonstige": 9760,
+        "Total": 61553
+    },
+    {
+        "station": "Bonn Hbf",
+        "IC": 398,
+        "ICE": 1024,
+        "RB": 7972,
+        "RE": 2920,
+        "S": 9088,
+        "Sonstige": 1704,
+        "Total": 23106
+    },
+    {
+        "station": "Gießen",
+        "IC": 248,
+        "ICE": 1012,
+        "RB": 0,
+        "RE": 2511,
+        "S": 0,
+        "Sonstige": 30251,
+        "Total": 34022
+    },
+    {
+        "station": "Kaiserslautern Hbf",
+        "IC": 0,
+        "ICE": 838,
+        "RB": 13290,
+        "RE": 4702,
+        "S": 6547,
+        "Sonstige": 1681,
+        "Total": 27058
+    },
+    {
+        "station": "Saarbrücken Hbf",
+        "IC": 0,
+        "ICE": 838,
+        "RB": 21387,
+        "RE": 9904,
+        "S": 0,
+        "Sonstige": 18504,
+        "Total": 50633
+    },
+    {
+        "station": "Berlin Zoologischer Garten",
+        "IC": 0,
+        "ICE": 561,
+        "RB": 3151,
+        "RE": 20442,
+        "S": 64183,
+        "Sonstige": 422,
+        "Total": 88759
+    },
+    {
+        "station": "Oldenburg(Oldb)Hbf",
+        "IC": 1623,
+        "ICE": 460,
+        "RB": 0,
+        "RE": 3337,
+        "S": 0,
+        "Sonstige": 10907,
+        "Total": 16327
+    },
+    {
+        "station": "Mönchengladbach Hbf",
+        "IC": 0,
+        "ICE": 431,
+        "RB": 7515,
+        "RE": 11291,
+        "S": 8569,
+        "Sonstige": 10656,
+        "Total": 38462
+    },
+    {
+        "station": "Rostock Hbf",
+        "IC": 1881,
+        "ICE": 399,
+        "RB": 10343,
+        "RE": 6826,
+        "S": 16472,
+        "Sonstige": 0,
+        "Total": 35921
+    },
+    {
+        "station": "Lübeck Hbf",
+        "IC": 46,
+        "ICE": 352,
+        "RB": 3123,
+        "RE": 11397,
+        "S": 0,
+        "Sonstige": 18894,
+        "Total": 33812
+    },
+    {
+        "station": "Neustadt(Weinstr)Hbf",
+        "IC": 0,
+        "ICE": 352,
+        "RB": 12172,
+        "RE": 5840,
+        "S": 7481,
+        "Sonstige": 374,
+        "Total": 26219
+    },
+    {
+        "station": "Plochingen",
+        "IC": 5,
+        "ICE": 345,
+        "RB": 2,
+        "RE": 3360,
+        "S": 11391,
+        "Sonstige": 14648,
+        "Total": 29751
+    },
+    {
+        "station": "Gelsenkirchen Hbf",
+        "IC": 1414,
+        "ICE": 258,
+        "RB": 3835,
+        "RE": 14768,
+        "S": 4140,
+        "Sonstige": 7449,
+        "Total": 31864
+    },
+    {
+        "station": "Magdeburg Hbf",
+        "IC": 3626,
+        "ICE": 201,
+        "RB": 10164,
+        "RE": 22843,
+        "S": 4537,
+        "Sonstige": 1223,
+        "Total": 42594
+    },
+    {
+        "station": "Berlin-Wannsee",
+        "IC": 455,
+        "ICE": 187,
+        "RB": 4203,
+        "RE": 13376,
+        "S": 41486,
+        "Sonstige": 167,
+        "Total": 59874
+    },
+    {
+        "station": "Potsdam Hbf",
+        "IC": 546,
+        "ICE": 182,
+        "RB": 12486,
+        "RE": 8318,
+        "S": 20136,
+        "Sonstige": 163,
+        "Total": 41831
+    },
+    {
+        "station": "Rosenheim",
+        "IC": 638,
+        "ICE": 179,
+        "RB": 2970,
+        "RE": 0,
+        "S": 0,
+        "Sonstige": 18705,
+        "Total": 22492
+    },
+    {
+        "station": "München Ost",
+        "IC": 637,
+        "ICE": 168,
+        "RB": 4476,
+        "RE": 378,
+        "S": 88557,
+        "Sonstige": 11387,
+        "Total": 105603
+    },
+    {
+        "station": "Paderborn Hbf",
+        "IC": 296,
+        "ICE": 136,
+        "RB": 9086,
+        "RE": 2961,
+        "S": 2979,
+        "Sonstige": 10838,
+        "Total": 26296
+    },
+    {
+        "station": "Heilbronn Hbf",
+        "IC": 0,
+        "ICE": 136,
+        "RB": 1846,
+        "RE": 6609,
+        "S": 73,
+        "Sonstige": 15813,
+        "Total": 24477
+    },
+    {
+        "station": "Herford",
+        "IC": 241,
+        "ICE": 128,
+        "RB": 10163,
+        "RE": 4684,
+        "S": 0,
+        "Sonstige": 3950,
+        "Total": 19166
+    },
+    {
+        "station": "Fürth(Bay)Hbf",
+        "IC": 178,
+        "ICE": 85,
+        "RB": 7818,
+        "RE": 11296,
+        "S": 12398,
+        "Sonstige": 453,
+        "Total": 32228
+    },
+    {
+        "station": "Worms Hbf",
+        "IC": 0,
+        "ICE": 78,
+        "RB": 9927,
+        "RE": 0,
+        "S": 3078,
+        "Sonstige": 5321,
+        "Total": 18404
+    },
+    {
+        "station": "Rheine",
+        "IC": 2129,
+        "ICE": 58,
+        "RB": 6815,
+        "RE": 3029,
+        "S": 0,
+        "Sonstige": 7555,
+        "Total": 19586
+    },
+    {
+        "station": "Neuss Hbf",
+        "IC": 0,
+        "ICE": 46,
+        "RB": 0,
+        "RE": 12094,
+        "S": 23802,
+        "Sonstige": 17635,
+        "Total": 53577
+    },
+    {
+        "station": "Berlin Friedrichstraße",
+        "IC": 6,
+        "ICE": 12,
+        "RB": 3142,
+        "RE": 20516,
+        "S": 121371,
+        "Sonstige": 2999,
+        "Total": 148046
+    },
+    {
+        "station": "Flughafen BER",
+        "IC": 919,
+        "ICE": 11,
+        "RB": 9723,
+        "RE": 4897,
+        "S": 10108,
+        "Sonstige": 31587,
+        "Total": 57245
+    },
+    {
+        "station": "Berlin-Lichtenberg",
+        "IC": 176,
+        "ICE": 6,
+        "RB": 16357,
+        "RE": 968,
+        "S": 65643,
+        "Sonstige": 2696,
+        "Total": 85846
+    },
+    {
+        "station": "Weimar",
+        "IC": 48,
+        "ICE": 1,
+        "RB": 2180,
+        "RE": 1540,
+        "S": 0,
+        "Sonstige": 68,
+        "Total": 3837
+    },
+    {
+        "station": "Trier Hbf",
+        "IC": 0,
+        "ICE": 0,
+        "RB": 12120,
+        "RE": 7287,
+        "S": 0,
+        "Sonstige": 1121,
+        "Total": 20528
+    },
+    {
+        "station": "Berlin Potsdamer Platz",
+        "IC": 0,
+        "ICE": 0,
+        "RB": 4584,
+        "RE": 11382,
+        "S": 67480,
+        "Sonstige": 8,
+        "Total": 83454
+    },
+    {
+        "station": "Berlin Ostkreuz",
+        "IC": 82,
+        "ICE": 0,
+        "RB": 3639,
+        "RE": 4062,
+        "S": 30324,
+        "Sonstige": 2290,
+        "Total": 40397
+    },
+    {
+        "station": "Bad Oldesloe",
+        "IC": 0,
+        "ICE": 0,
+        "RB": 3802,
+        "RE": 7216,
+        "S": 0,
+        "Sonstige": 540,
+        "Total": 11558
+    },
+    {
+        "station": "Tübingen Hbf",
+        "IC": 0,
+        "ICE": 0,
+        "RB": 14393,
+        "RE": 0,
+        "S": 0,
+        "Sonstige": 15037,
+        "Total": 29430
+    },
+    {
+        "station": "Kassel Hbf",
+        "IC": 0,
+        "ICE": 0,
+        "RB": 10019,
+        "RE": 4978,
+        "S": 0,
+        "Sonstige": 15903,
+        "Total": 30900
+    },
+    {
+        "station": "Singen(Hohentwiel)",
+        "IC": 3063,
+        "ICE": 0,
+        "RB": 303,
+        "RE": 5653,
+        "S": 0,
+        "Sonstige": 17829,
+        "Total": 26848
+    },
+    {
+        "station": "Bietigheim-Bissingen",
+        "IC": 1,
+        "ICE": 0,
+        "RB": 281,
+        "RE": 3387,
+        "S": 10738,
+        "Sonstige": 16678,
+        "Total": 31085
+    },
+    {
+        "station": "Pforzheim Hbf",
+        "IC": 1386,
+        "ICE": 0,
+        "RB": 3665,
+        "RE": 158,
+        "S": 12376,
+        "Sonstige": 12321,
+        "Total": 29906
+    },
+    {
+        "station": "Cottbus Hbf",
+        "IC": 156,
+        "ICE": 0,
+        "RB": 9590,
+        "RE": 7634,
+        "S": 0,
+        "Sonstige": 62,
+        "Total": 17442
+    },
+    {
+        "station": "Düsseldorf Flughafen Terminal",
+        "IC": 0,
+        "ICE": 0,
+        "RB": 0,
+        "RE": 72,
+        "S": 8573,
+        "Sonstige": 42,
+        "Total": 8687
+    },
+    {
+        "station": "Frankfurt(Oder)",
+        "IC": 7,
+        "ICE": 0,
+        "RB": 5208,
+        "RE": 9827,
+        "S": 0,
+        "Sonstige": 4715,
+        "Total": 19757
+    },
+    {
+        "station": "Ludwigshafen(Rh)Hbf",
+        "IC": 0,
+        "ICE": 0,
+        "RB": 307,
+        "RE": 701,
+        "S": 20472,
+        "Sonstige": 3262,
+        "Total": 24742
+    },
+    {
+        "station": "Landshut(Bay)Hbf",
+        "IC": 3,
+        "ICE": 0,
+        "RB": 5603,
+        "RE": 9233,
+        "S": 0,
+        "Sonstige": 3917,
+        "Total": 18756
+    },
+    {
+        "station": "Chemnitz Hbf",
+        "IC": 345,
+        "ICE": 0,
+        "RB": 12764,
+        "RE": 5900,
+        "S": 0,
+        "Sonstige": 26090,
+        "Total": 45099
+    }
+]

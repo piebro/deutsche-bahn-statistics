@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=800">
+    <meta name="description" content="Deutsche Bahn Statistiken">
+    <title>Deutsche Bahn Statistiken</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../index.js"></script>
+    <script defer data-domain="piebro.github.io/deutsche-bahn-statistics" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+    <!-- header generated with scripts/generate_html_links.py -->
+    <header class="header">
+        <div class="left-nav">
+            <a href="../verspaetung_pro_bahnhof">←</a>
+            <a href="..">alle Fragen</a>
+            <a href="../bahnhof">→</a>
+        </div>
+        <nav>
+            <a href="../about.html">About</a>
+            <a href="https://github.com/piebro/deutsche-bahn-statistics">Code</a>
+            <a href="https://github.com/piebro/deutsche-bahn-data">Daten</a>
+            <a href="https://piebro.github.io/">andere Projekte</a>
+        </nav>
+    </header>
+    <!-- end of generated header-->
+
+
+    <h1 id="Zuggattungen pro Bahnhof">An welchem Bahnhof halten die meisten ICE, RE oder andere Zuggattungen?</h1>
+    <div id="content">
+        <p>
+            In der Tabelle kann man alle Bahnhöfe sehen mit der Anzahl an Zughalten nach den üblichten Zuggattungen aufgeteilt.
+        </p>
+        <p>
+            In manchen Regionen gibt es keine REs aber defür regionale equivalente Zuggattungen.
+            In Lüneburg zum Beispiel gibt es keine RE, RB oder S Bahnen, aber dafür "ME" und "erx" Züge.
+            Um genau zu sehen welche Zuggattungen an einem Bahnhof halten gibt es <a href="../verspaetung_pro_bahnhof">Verspätungen pro Bahnhof</a>.
+        </p>
+        <div id="table-container"></div>
+    </div>
+    <script>
+        const files = [{ key: '', label: '', file: 'data/Verteilung_von_Zuggattungen_pro_Bahnhof.json' }];
+        const columns = [
+            { key: 'station', label: 'Bahnhof' },
+            { key: 'Total', label: 'Alle Züge' },
+            { key: 'ICE', label: 'ICE' },
+            { key: 'IC', label: 'IC' },
+            { key: 'RE', label: 'RE' },
+            { key: 'RB', label: 'RB' },
+            { key: 'S', label: 'S' },
+            { key: 'Sonstige', label: 'Sonstige' },
+        ];
+
+        setupTable('table-container', files, columns, defaultSort = { column: 'ICE', direction: 'desc' });
+    </script>
+    
+    <!-- footer generated with scripts/generate_html_links.py -->
+    <p>
+        Quelle: <a href="https://github.com/piebro/deutsche-bahn-statistics/blob/main/questions/zuggattungen_pro_bahnhof/calculations.py">Berechnet</a>
+        auf Basis von
+        <a href="https://github.com/piebro/deutsche-bahn-data">gesammelten Daten</a>
+        von der Deutschen Bahn vom 2024.09.01 bis 2024.12.01.
+
+        <nav class="question-nav">
+            <a href="../verspaetung_pro_bahnhof" class="prev-question">Vorherige Frage</a>
+            <a href="../bahnhof" class="next-question">Wie ist die durchschnittle Verspätung von Zügen in einem Bahnhof?</a>
+        </nav>
+    </p>
+    <!-- end of generated footer -->
+</body>
+</html>
