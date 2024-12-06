@@ -30,7 +30,7 @@ def update_main_index(order):
         new_content += f"            <p>{question}</p>\n"
         new_content += "        </a>\n"
 
-    pattern = r"(?s)<!-- Generated with scripts/generate_html_links\.py -->.*?<!-- End of content generated with scripts/generate_html_links\.py -->"
+    pattern = r"(?s)<!-- generated with scripts/generate_html_links\.py -->.*?<!-- end of generated links -->"
     updated_content = re.sub(
         pattern,
         f"<!-- generated with scripts/generate_html_links.py -->\n{new_content}            <!-- end of generated links-->",

@@ -130,7 +130,7 @@
                     },
                     filterTriggerElementList: ['#nahverkehr', '#fernverkehr', '#min-samples']
                 }];
-                setupTable('table-container', files, columns, defaultSort = { column: 'Stichprobengröße', direction: 'desc' });
+                setupTable('table-container', files, columns, defaultSort = { column: 'Fahrzeit inkl. Verspätungen [min]', direction: 'asc' });
             } else {
                 document.getElementById('table-container').innerHTML = '';
             }
