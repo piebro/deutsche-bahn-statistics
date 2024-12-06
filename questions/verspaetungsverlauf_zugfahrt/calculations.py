@@ -83,7 +83,7 @@ def plot_delay_progression(avg_delay, prefix):
     line = slope * x + intercept
 
     plt.plot(
-        x, line, color="r", label=f"Startverspärtung: {intercept:.0f} min, Steigung: {slope * 60:.1f} min/h"
+        x, line, color="r", label=f"Startverspätung: {intercept:.0f} min, Steigung: {slope * 60:.1f} min/h"
     )
 
     plt.xlabel("Zeit seit Zugstart (Minuten)")

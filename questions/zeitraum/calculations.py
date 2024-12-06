@@ -59,7 +59,7 @@ def create_time_period_plots(df, save_dir, freq, format_func, xlabel):
             ("cancellations", "canceled_rate", 100, "Ausgefallene Züge", "Prozent (%)"),
             ("delays", "avg_delay", 1, "Durchschnittliche Verspätung", "Minuten"),
             ("punctuality", "punctuality", 100, "Pünktlichkeit (<6 min)", "Prozent (%)"),
-            ("stops", "total_stops", 1, "Anzahl Geplanter Halte", "Anzahl"),
+            ("stops", "total_stops", 1, "Anzahl geplanter Halte", "Anzahl"),
         ]
 
         for plot_type, stat, multiplier, title, ylabel in plot_configs:

@@ -88,7 +88,7 @@ def add_value_labels(bars, ax, x_offset=0):
         ax.text(
             bar.get_x() + bar.get_width() / 2.0 + x_offset,
             height,
-            f"{height:.2f}" if ax == ax1 else f"{height:.2%}",
+            f"{height:.2f}",
             ha="center",
             va="bottom",
         )
