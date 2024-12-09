@@ -7,7 +7,7 @@
     <title>Deutsche Bahn Statistiken</title>
     <link rel="stylesheet" type="text/css" href="../style.css">
     <script src="../index.js"></script>
-    <script defer data-domain="piebro.github.io/deutsche-bahn-statistics" src="https://plausible.io/js/script.js"></script>
+    <!-- <script defer data-domain="piebro.github.io/deutsche-bahn-statistics" src="https://plausible.io/js/script.js"></script> -->
 </head>
 <body>
     <!-- header generated with scripts/generate_html_links.py -->
@@ -32,7 +32,8 @@
         <p>
             Viele Fernverkehrszüge haben eine eindeutige Nummer in den Daten und damit lässt sich die Pünktlichkeit und Ausfallquote aller Ferverbindungen von ICE, IC, FLX (FlixTrain) oder EC (EuroCity) ermitteln.
         </p>
-        <div class="filter-options"></div>
+        <div class="filter-options">
+            <label>Zugname suchen: <input type="text" id="train-search"></label>
             <label><input type="checkbox" id="min-samples" checked> Mindestens 100 geplante Fahrten</label>
         </div>
         <br>
@@ -53,12 +54,15 @@
                 file: 'data/long_distance_train_stats.json',
                 filter: (data) => {
                     const minSamples = document.getElementById('min-samples').checked;
+                    const searchTerm = document.getElementById('train-search').value.toLowerCase();
+                    
                     return data.filter(row => {
                         if (minSamples && row['sample_count'] < 100) return false;
+                        if (searchTerm && !row['train_name'].toLowerCase().includes(searchTerm)) return false;
                         return true;
                     });
                 },
-                filterTriggerElementList: ['#min-samples']  
+                filterTriggerElementList: ['#min-samples', '#train-search']  
             }
         ];
         setupTable('table-container', files, columns, defaultSort = { column: 'sample_count', direction: 'desc' });
