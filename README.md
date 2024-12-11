@@ -52,6 +52,7 @@ Use `ruff check` and `ruff format` to lint and format the Python code before com
 ## Related Project and Statistics about Deutsche Bahn
 
 There are a few other projects that look at similar data.
+- [Video](https://www.youtube.com/watch?v=0rb9CfOvojk): BahnMining - Pünktlichkeit ist eine Zier (David Kriesel) [2019]
 - [www.deutschebahn.com](https://www.deutschebahn.com/de/konzern/konzernprofil/zahlen_fakten/puenktlichkeitswerte-6878476#): official statistics from Deutsche Bahn
 - [bahn.expert](https://bahn.expert): look at the departure monitor of train stations in real time
 - [next.bahnvorhersage.de](https://next.bahnvorhersage.de): a tool to calculate the probability that a train connection works using historical data
