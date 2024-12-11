@@ -8,10 +8,10 @@ import pandas as pd
 save_dir = Path(__file__).parent / "data"
 save_dir.mkdir(exist_ok=True)
 
-# Load data from the last full month
-df = pd.read_parquet(sorted(Path("data").iterdir())[-1])[
-    ["delay_in_min", "station", "is_canceled", "train_type"]
-]
+df_list = []
+for file in sorted(Path("data").iterdir())[-3:]:
+    df_list.append(pd.read_parquet(file)[["delay_in_min", "station", "is_canceled", "train_type"]])
+df = pd.concat(df_list, ignore_index=True)
 
 data_dict = {}
 delay_distributions = {}
@@ -55,7 +55,7 @@ for train_type in ["all", "ICE", "IC", "RE", "RB", "S"]:
 with (save_dir / "allgemeine_statistiken.json").open("w", encoding="utf-8") as f:
     json.dump(data_dict, f, ensure_ascii=False, indent=4)
 
-# Create visualization after data collection
+
 plt.figure(figsize=(12, 6))
 bar_width = 0.15
 x = np.arange(len(labels))
@@ -79,4 +79,40 @@ plt.grid(axis="y", linestyle="--", alpha=0.7)
 plt.tight_layout()
 
 plt.savefig(save_dir / "Verteilung von Verspätungen.png", dpi=150, bbox_inches="tight")
+plt.close()
+
+
+
+plt.figure(figsize=(12, 6))
+for train_type in ["all", "ICE", "IC", "RE", "RB", "S"]:
+    if train_type == "all":
+        df_plot = df[~df["is_canceled"]]
+        display_name = "Alle"
+    else:
+        df_plot = df[(df["train_type"] == train_type) & (~df["is_canceled"])]
+        display_name = train_type
+    
+    # Group by delay minutes and calculate cumulative percentage
+    delay_counts = df_plot["delay_in_min"].value_counts().sort_index()
+    cumulative = (delay_counts.cumsum() / len(df_plot) * 100)
+    
+    # Plot CDF
+    plt.plot(cumulative.index, cumulative.values, label=display_name)
+
+# Customize the chart
+plt.xlabel("Verspätung [Minuten]")
+plt.ylabel("Kumulativer Anteil der Züge [%]")
+plt.title("Kumulative Verteilung der Verspätungen nach Zuggattung")
+
+plt.xlim(-5, 60)
+
+# Format y-axis to show percentage symbol
+plt.gca().yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f"{int(x)}%"))
+plt.gca().yaxis.set_major_locator(plt.MultipleLocator(10))
+
+plt.legend()
+plt.grid(True, linestyle="--", alpha=0.7)
+plt.tight_layout()
+
+plt.savefig(save_dir / "Kumulative Verteilung der Verspätungen.png", dpi=150, bbox_inches="tight")
 plt.close()
