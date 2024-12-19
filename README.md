@@ -49,7 +49,7 @@ uv run generate_html_links.py $START_DATE $END_DATE "allgemein,zeitraum,direkter
 
 Use `ruff check` and `ruff format` to lint and format the Python code before committing new code.
 
-## Related Project and Statistics about Deutsche Bahn
+## Related Deutsche Bahn and Open Data Websites
 
 There are a few other projects that look at similar data.
 - [Video](https://www.youtube.com/watch?v=0rb9CfOvojk): BahnMining - Pünktlichkeit ist eine Zier (David Kriesel) [2019]
@@ -57,6 +57,8 @@ There are a few other projects that look at similar data.
 - [bahn.expert](https://bahn.expert): look at the departure monitor of train stations in real time
 - [next.bahnvorhersage.de](https://next.bahnvorhersage.de): a tool to calculate the probability that a train connection works using historical data
 - [www.zugfinder.net](https://www.zugfinder.net/de/start): multiple maps of current train positions and statistics for long-distance trains in Germany, Austria, BeNeLux, Denmark, Italy and Slovenia
+- [strecken-info.de](https://strecken-info.de/): a map of the German railroads with current construction sites and disruptions on the routes
+- [openrailwaymap.org](https://openrailwaymap.org/): a worldwide map with railway infrastructure using OpenStreetMap Data
 
 ## Contributing
 
