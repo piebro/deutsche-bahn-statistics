@@ -1,9 +1,9 @@
 name: Run Calculations
 
 on:
-  schedule:
-    # Runs at 16:00 UTC on the first day of every month
-    - cron: '0 16 1 * *'
+  # schedule:
+  #   # Runs at 16:00 UTC on the first day of every month
+  #   - cron: '0 16 1 * *'
   workflow_dispatch:
 
 jobs:
