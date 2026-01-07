@@ -1,5 +1,7 @@
 # Deutsche Bahn Statistics
 
+> **Note:** This project has been sunset and is replaced by [deutsche-bahn-data](https://github.com/piebro/deutsche-bahn-data), which now also has the statistics website at: [piebro.github.io/deutsche-bahn-data](https://piebro.github.io/deutsche-bahn-data).
+
 Deutsche Bahn Statistics is a (German) [website](https://piebro.github.io/deutsche-bahn-statistics/questions) with plots and tables about the Deutsche Bahn together with Python code to create them.
 The statistics are automatically updated monthly and use publicly available data.
 The data is available in a separate repo here: [https://github.com/piebro/deutsche-bahn-data](https://github.com/piebro/deutsche-bahn-data).
